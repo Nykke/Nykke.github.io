@@ -14,13 +14,28 @@
   <article>
     <h2>Penny for your Thoughts</h2>
     <p>
-    <h3>leave me a message to let me know what you think or send me a question</h3>
+    <h3>email me your messages and comments</h3>
 
   <form method="get">
-    Name:<input type="text" name="name" id="name"/><br />
-    Email:<input type="email" name="email" id="email"/><br />
-    Comment:<br />
-    <textarea name="comment" id="comment"></textarea><br />
+    <fieldset>
+      <legend> Contact Details</legend>
+      <label>Name: <br />
+        <input type="text" name="name" id="name" required="required"/>
+      </label><br />
+      <label>Email:<br />
+        <input type="email" name="email" id="email" required="required"/>
+      </label><br />
+      <label>Phone: <br />
+        <input type="phone" name="phone" id="phone"/>
+      </label><br />
+      </fieldset>
+        <br />
+        <br />
+      <label>Comments:<br />
+      </label><br />
+        <textarea name="comment" id="comment">Enter your comments...</textarea>
+      <br />
+      <br />
     <input type="submit">
   </form>
 

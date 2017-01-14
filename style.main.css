@@ -72,15 +72,6 @@ li a {
   text-decoration:none;
 }
 
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
 span {
   margin: 1%;
   padding: 1%;
@@ -89,3 +80,12 @@ span {
   background-position:40px 15px;
   alt: hidden;
 }
+
+/*.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}*/

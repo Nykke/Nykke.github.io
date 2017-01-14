@@ -37,22 +37,3 @@ h2 {
   margin: 10px;
   text-transform: lowercase;
 }
-
-
-li {
-  float: right;
-  display: block;
-}
-
-li a {
-  text-decoration:none;
-}
-
-span {
-  margin: 1%;
-  padding: 1%;
-  width: 2%;
-  height:3%;
-  background-position:40px 15px;
-  alt: hidden;
-}

@@ -38,6 +38,36 @@ h2 {
   text-transform: lowercase;
 }
 
+.face {
+  height: 120px;
+  width: 130px;
+  background: #323232;
+  border-radius: 90px;
+  position: relative;
+
+}
+
+.eye {
+  background: yellow;
+  height: 40px;
+  width: 40px;
+  top: 20px;
+  left: 10px;
+  position: absolute;
+
+}
+
+#right-eye {
+  border-radius: 60px;
+  z-index: 0;
+  position: absolute;
+}
+
+#left-eye {
+  border-radius: 60px;
+  z-index: 0;
+}
+
 li {
   float: right;
   display: block;
@@ -55,6 +85,16 @@ span {
   background-position:40px 15px;
   alt: hidden;
 }
+
+.email, .tweet, .linked, .github {
+  height: 23px;
+  width: 25px;
+
+
+}
+
+
+
 
 /*.clearfix:after {
     visibility: hidden;

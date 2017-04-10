@@ -3,3 +3,25 @@
   margin: auto;
   padding: 10px;
 }*/
+
+li {
+  display: block;
+}
+
+li a {
+  text-decoration:none;
+}
+
+.logo {
+  margin: 2%;
+  padding: 2%;
+  width: 3%;
+  height: 4%;
+  background-position:40px 15px;
+  alt: hidden;
+}
+
+.email, .tweet, .linked, .github {
+  height: 33px;
+  width: 35px;
+}

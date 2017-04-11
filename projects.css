@@ -1,0 +1,24 @@
+.git {
+  background-color: #D4AF37;
+}
+
+.site {
+  background-color: #CE1B74;
+}
+
+button {
+  border: none;
+  padding: 8px 15px 8px 15px;
+  box-shadow: 1px 1px 4px #DADADA;
+  border-radius: 2px;
+  color: #FFF;
+  font-size: 14px;
+}
+
+img {
+  box-shadow: 3px 3px 7px #DADADA;
+}
+
+.tech {
+  font-size: 18px; 
+}

@@ -2,11 +2,11 @@ html {
   font-family: 'Muli', sans-serif;
 }
 
-/*body {
+body {
   margin: 0 auto;
   max-width: 50em;
   background-color: #FFF;*/
-/*}*/
+}
 
 h1 {
   font-weight: 500;
@@ -101,29 +101,3 @@ span {
   border-radius: 60px;
   z-index: 0;
 }*/
-
-body {
-  background-image: url("http://i.imgur.com/Az3GDIH.jpg");
-  background-size: cover;
-
-}
-
-div {
-  position: relative;
-}
-
-.moonman {
-  height: 280px;
-  width: 210px;
-  padding-top: 35em;
-  position: absolute;
-}
-
-.spaceshuttle {
-  height: 200px;
-  width: 300px;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  padding-top: 17em;
-}

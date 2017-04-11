@@ -57,22 +57,17 @@ header {
 footer {
   background-color: #ECE;
   width: 100vw;
-  height: 60px;
+  height: 35px;
   left: 0;
   bottom: 0;
   position: fixed;
-  display: block;
-  margin: auto;
-
+  /*display: block;
+  margin: auto;*/
 }
 
-/*footer > .ending, footer > li {
-  display: inline-block;
-}*/
-
-li a {
+/*li a {
   padding: 1.5em;
-}
+}*/
 
 .opening {
   color: #635EDE;
@@ -81,7 +76,8 @@ li a {
   padding-right: .4em;
 }
 
-/*.ending {
+.ending {
   font-size: 1em;
   padding-right: 1.2em;
-}*/
+  text-align: right;
+}

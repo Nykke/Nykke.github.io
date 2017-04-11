@@ -1,6 +1,7 @@
 h3 {
   font-weight: bold;
-  font-size: 26px;
+  font-size: 23px;
+  color: brown;
 }
 
 li {
@@ -16,10 +17,64 @@ span {
 }
 
 p {
-  padding: 13px;
+  padding: 10px;
   font-size: 20px;
 }
 
 i {
   font-size: 60px;
+}
+
+.skills {
+  font-size: 26px;
+  font-weight: bold;
+  color: #000;
+}
+
+.icon-mongodb {
+  color: #228B22;
+}
+
+.icon-postgres {
+  color: #0000b2;
+}
+
+.icon-ruby {
+  color: #E0115F;
+}
+
+.icon-ruby-on-rails {
+  color: #B22222;
+}
+
+.icon-javascript {
+  color: #DACD4C;
+}
+
+.icon-css3 {
+  color: blue;
+}
+
+.icon-html5 {
+  color: orange;
+}
+
+.icon-nodejs {
+  color: #8BB54E;
+}
+
+.icon-reactjs {
+  color: #87ceeb;
+}
+
+.icon-jquery {
+  color: #454C7B;
+}
+
+.icon-angular {
+  color: #b20000;
+}
+
+.icon-git {
+  color: #FF8C00;
 }

@@ -2,11 +2,11 @@ html {
   font-family: 'Muli', sans-serif;
 }
 
-body {
+/*body {
   margin: 0 auto;
   max-width: 50em;
-  background-color: #FFF;
-}
+  background-color: #FFF;*/
+/*}*/
 
 h1 {
   font-weight: 500;
@@ -37,36 +37,6 @@ h2 {
   margin: 10px;
   text-transform: lowercase;
 }
-
-/*face {
-  height: 120px;
-  width: 130px;
-  background: #323232;
-  border-radius: 90px;
-  position: relative;
-
-}
-
-.eye {
-  background: yellow;
-  height: 40px;
-  width: 40px;
-  top: 20px;
-  left: 10px;
-  position: absolute;
-
-}
-
-#right-eye {
-  border-radius: 60px;
-  z-index: 0;
-  position: absolute;
-}
-
-#left-eye {
-  border-radius: 60px;
-  z-index: 0;
-}*/
 
 li {
   display: block;
@@ -101,3 +71,59 @@ span {
     clear: both;
     height: 0;
 }*/
+
+/*.face {
+  height: 120px;
+  width: 130px;
+  background: #323232;
+  border-radius: 90px;
+  position: relative;
+
+}
+
+.eye {
+  background: yellow;
+  height: 40px;
+  width: 40px;
+  top: 20px;
+  left: 10px;
+  position: absolute;
+
+}
+
+#right-eye {
+  border-radius: 60px;
+  z-index: 0;
+  position: absolute;
+}
+
+#left-eye {
+  border-radius: 60px;
+  z-index: 0;
+}*/
+
+body {
+  background-image: url("http://i.imgur.com/Az3GDIH.jpg");
+  background-size: cover;
+
+}
+
+div {
+  position: relative;
+}
+
+.moonman {
+  height: 280px;
+  width: 210px;
+  padding-top: 35em;
+  position: absolute;
+}
+
+.spaceshuttle {
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding-top: 17em;
+}

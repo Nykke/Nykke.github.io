@@ -5,7 +5,7 @@ html {
 body {
   margin: 0 auto;
   max-width: 70em;
-  /*background-color: #EFE6F8;*/
+  background-color: #EFE6F8;
 }
 
 h1 {
@@ -28,7 +28,7 @@ nav a {
 
 a {
   text-decoration: none;
-  color: #635EDE; 
+  color: #635EDE;
 }
 
 

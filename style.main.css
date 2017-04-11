@@ -88,7 +88,10 @@ span {
 .email, .tweet, .linked, .github {
   height: 33px;
   width: 35px;
+  padding: 15px;
+
 }
+
 
 /*clearfix:after {
     visibility: hidden;

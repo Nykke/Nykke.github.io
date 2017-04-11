@@ -21,13 +21,15 @@ nav a {
   text-align: center;
   font-weight: 800;
   font-size: 1.5em;
-  padding: .5em;
+  padding-right: 2.8em;
+  padding-left: 2.8em;
   color: #15B5CB;
 }
 
 
 nav a:hover {
   background-color: #CE1B74;
+  padding: 5%;
 }
 
 h2 {
@@ -38,3 +40,48 @@ h2 {
   margin: 10px;
   text-transform: lowercase;
 }
+
+header {
+  overflow: hidden;
+  background-color: #ECE;
+  position: fixed;
+  height: 70px;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #ECE;
+  width: 100vw;
+  height: 60px;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  display: block;
+  margin: auto;
+
+}
+
+/*footer > .ending, footer > li {
+  display: inline-block;
+}*/
+
+li a {
+  padding: 1.5em;
+}
+
+.opening {
+  color: #635EDE;
+  font-size: 2em;
+  font-weight: 800;
+  padding-right: .4em;
+}
+
+/*.ending {
+  font-size: 1em;
+  padding-right: 1.2em;
+}*/

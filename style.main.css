@@ -2,75 +2,61 @@ html {
   font-family: 'Muli', sans-serif;
 }
 
-body {
-  margin: 0 auto;
-  max-width: 50em;
-  background-color: #FFF;*/
+div {
+  margin-top: 5em;
 }
 
-h1 {
-  font-weight: 500;
-  font-style: oblique;
-  font-size: 5em;
-
-}
-
-nav a {
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 800;
-  font-size: 1.5em;
-  padding: .5em;
-  color: #15B5CB;
-}
-
-nav a:hover {
-  background-color: #CE1B74;
-}
-
-h2 {
-  font-weight: 900;
-  font-size: 400%;
-  color:#C44E90;
-  padding: 1px;
-  margin: 10px;
-  text-transform: lowercase;
-}
-
-li {
+.square span {
   display: block;
+  text-align: center;
+  height: 100%;
+  font-size: 126px;
+  padding-top: 12px;
 }
 
-li a {
-  text-decoration:none;
+.square {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: 120px;
+  border-radius: 16px;
+  display: inline-block;
+  background-color: purple;
+  color: white;
+
+  animation-name: bounce;
+  -webkit-animation-name: bounce;
+  -moz-webkit-animation: bounce;
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  -moz-webkit-animation-duration: 4s;
+  animation-timing-function: linear;
+  -webkit-timing-function: linear;
+  -moz-webkit-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-iteration-count: infinite;
+  -moz-webkit-iteration-count: infinite;
 }
 
-span {
-  margin: 2%;
-  padding: 2%;
-  width: 3%;
-  height: 4%;
-  background-position:40px 15px;
-  alt: hidden;
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+}
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+    40% {-webkit-transform: translateY(-30px);}
+    60% {-webkit-transform: translateY(-15px);}
+}
+@-moz-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+    40% {-webkit-transform: translateY(-30px);}
+    60% {-webkit-transform: translateY(-15px);}
 }
 
-.email, .tweet, .linked, .github {
-  height: 33px;
-  width: 35px;
-  padding: 15px;
-
-}
 
 
-/*clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}*/
+
 
 /*.face {
   height: 120px;

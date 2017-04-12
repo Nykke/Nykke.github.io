@@ -1,27 +1,32 @@
-/*.nyketha {
-  display: block;
-  margin: auto;
-  padding: 10px;
-}*/
-
-li {
-  display: block;
+.flower.violet > .petal {
+  	background: #9b59b6;
 }
 
-li a {
-  text-decoration:none;
+.petal {
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	float: left;
 }
 
-.logo {
-  margin: 2%;
-  padding: 2%;
-  width: 3%;
-  height: 4%;
-  background-position:40px 15px;
-  alt: hidden;
+.tl {
+	border-bottom-right-radius: 0px;
 }
 
-.email, .tweet, .linked, .github {
-  height: 33px;
-  width: 35px;
+.tr {
+	border-bottom-left-radius: 0px;
+}
+
+.bl {
+	border-top-right-radius: 0px;
+	clear: left;
+}
+
+.br {
+	border-top-left-radius: 0px;
+}
+
+.flower {
+	float: right;
+  width: 39.7em; 
 }

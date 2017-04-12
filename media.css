@@ -1,0 +1,91 @@
+
+/*galaxy phones*/
+@media screen
+  and (max-width: 360px)
+  and (max-height: 640px)
+  and (-webkit-device-pixel-ratio: 3){
+
+  .square {
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 15px;
+    border-radius: 6px;
+    display: inline-block;
+    left: 20px;
+
+  }
+
+  .square span {
+    font-size: 26px;
+    padding-top: 10px;
+  }
+
+  nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    font-size: .9em;
+    padding-right: .1em;
+    padding-left: .1em;
+    color: #15B5CB;
+  }
+
+  .opening {
+    color: #635EDE;
+    font-size: 0em;
+    font-weight: 1800;
+    padding-right: .1em;
+  }
+
+  .ending {
+    font-size: .8em;
+  }
+
+  .nyketha {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    left: 20px;
+  }
+
+  img {
+    height: 200px;
+    width: 300px;
+    right: 8px;
+  }
+
+  .tech {
+    font-size: 13px;
+  }
+
+  button {
+    border: none;
+    padding: 3px 8px 3px 8px;
+    box-shadow: 1px 1px 4px #DADADA;
+    border-radius: 2px;
+    color: #FFF;
+    font-size: 14px;
+  }
+
+  i {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .skills {
+    font-size: 17px;
+  }
+
+  img {
+    height: 90px;
+    width: 110px;
+  }
+  
+}

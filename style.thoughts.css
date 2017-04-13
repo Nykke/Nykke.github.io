@@ -16,3 +16,11 @@ img {
   -ms-transform: scale(1.3);
   transform: scale(1.3);
 }
+
+.flower {
+	float: right;
+  width: 39.7em;
+  top: 80px;
+  right: 365px;
+  position: absolute;
+}

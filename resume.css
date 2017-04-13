@@ -1,4 +1,4 @@
-div {
+.icons {
   display: block;
   float: left;
   padding: 25px;
@@ -72,4 +72,24 @@ i {
 
 .separate {
   font-size: 20px;
+}
+
+.flower {
+	float: right;
+  width: 39.7em;
+  top: 80px;
+  right: 485px;
+  position: absolute;
+}
+
+.flowertwo.violet > .petal {
+  	background: #9b59b6;
+}
+
+.flowertwo {
+	float: right;
+  width: 39.7em;
+  top: 80px;
+  right: 415px;
+  position: absolute;
 }

@@ -20,5 +20,13 @@ img {
 }
 
 .tech {
-  font-size: 18px; 
+  font-size: 18px;
+}
+
+.flower {
+	float: right;
+  width: 39.7em;
+  top: 80px;
+  right: 475px;
+  position: absolute;
 }

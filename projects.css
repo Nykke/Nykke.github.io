@@ -17,10 +17,14 @@ button {
 
 img {
   box-shadow: 3px 3px 7px #DADADA;
+  float: left;
+  display: block;
+  margin: 15px;
 }
 
+
 .tech {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .flower {
@@ -29,4 +33,24 @@ img {
   top: 80px;
   right: 475px;
   position: absolute;
+}
+
+p {
+  font-size: 20px;
+  left: 30px;
+}
+
+.projecttitle {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+figure {
+  padding: 40px;
+  margin: 50px;
+}
+
+figcaption {
+  padding: 10px;
+  border: 1px solid red; 
 }

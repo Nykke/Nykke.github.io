@@ -18,7 +18,7 @@ div {
   width: 150px;
   height: 150px;
   position: relative;
-  top: 120px;
+  top: 90px;
   border-radius: 16px;
   display: inline-block;
   /*background-color: purple;*/
@@ -26,7 +26,7 @@ div {
   /*background-color: #45d9fd; */
   /*background-color: #c8c8a9; */
   /*background-color: #ee6e9f; */
-  background-color: #A593E0; 
+  background-color: #A593E0;
   color: #FFF;
 
   animation-name: bounce;
@@ -41,6 +41,8 @@ div {
   animation-iteration-count: infinite;
   -webkit-iteration-count: infinite;
   -moz-webkit-iteration-count: infinite;
+
+  box-shadow: 10px 10px 5px #888888;
 }
 
 @keyframes bounce {

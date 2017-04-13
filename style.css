@@ -73,11 +73,39 @@ footer {
   font-size: 1.8em;
   font-weight: 800;
   padding-right: .3em;
-  padding-left: .8em; 
+  padding-left: .8em;
 }
 
 .ending {
   font-size: 1em;
   padding-right: 1.2em;
   text-align: right;
+}
+
+.flower.violet > .petal {
+  	background: #9b59b6;
+}
+
+.petal {
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	float: left;
+}
+
+.tl {
+	border-bottom-right-radius: 0px;
+}
+
+.tr {
+	border-bottom-left-radius: 0px;
+}
+
+.bl {
+	border-top-right-radius: 0px;
+	clear: left;
+}
+
+.br {
+	border-top-left-radius: 0px;
 }

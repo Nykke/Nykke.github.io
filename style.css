@@ -5,7 +5,12 @@ html {
 body {
   margin: 0 auto;
   max-width: 70em;
-  background-color: #EFE6F8;
+  /*background-color: #EFE6F8;*/
+  /*background-color: #fffcf0;*/
+  /*background-color: #f4f4f4;*/
+  /*background-color: #f9cdad;*/
+  /*background-color: #fec9c9;*/
+  background-color: #FFFFF3;
 }
 
 h1 {
@@ -22,24 +27,41 @@ nav a {
   font-size: 1.5em;
   padding-right: 2.4em;
   padding-left: 2.4em;
-  color: #15B5CB;
+  /*color: #15B5CB;*/
+  /*color: #dedcee;*/
+  /*color: #ee2560;*/
+  /*color: #c8c8a9;*/
+  /*color: #ee6e9f;*/
+  color: #A593E0;
 }
 
 a {
   text-decoration: none;
-  color: #635EDE;
+  /*color: #635EDE;*/
+  /*color: #fbd14b;*/
+  /*color: #ee2560;*/
+  /*color: #fe4365;*/
+  /*color: #1a1a1a;*/
+  color: #A593E0;
 }
 
 
 nav a:hover {
-  background-color: #CE1B74;
+  /*background-color: #CE1B74;*/
+  /*background-color: #6a60a9;*/
+  /*background: #ee2560;*/
   padding: 5%;
 }
 
 h2 {
   font-weight: 900;
   font-size: 400%;
-  color:#C44E90;
+  /*color:#C44E90;*/
+  /*color: #fbd14b;*/
+  /*color: #08182b;*/
+  /*color: #fe4365;*/
+  /*color: #1a1a1a;*/
+  color: #566270; 
   padding: 1px;
   margin: 10px;
   text-transform: lowercase;
@@ -47,7 +69,12 @@ h2 {
 
 header {
   overflow: hidden;
-  background-color: #ECE;
+  /*background-color: #ECE;*/
+  /*background-color: #6a60a9;*/
+  /*background-color: #45d9fd;*/
+  /*background-color: #fc9d9a;*/
+  /*background-color: #6d9d88;*/
+  background-color: #E0E3DA;
   position: fixed;
   height: 70px;
   width: 100vw;
@@ -59,7 +86,12 @@ header {
 }
 
 footer {
-  background-color: #ECE;
+  /*background-color: #ECE;*/
+  /*background-color: #6a60a9;*/
+  /*background-color: #45d9fd;*/
+  /*background-color: #fc9d9a;*/
+  /*background-color: #6d9d88;*/
+  background-color: #E0E3DA;
   width: 100vw;
   height: 35px;
   left: 0;

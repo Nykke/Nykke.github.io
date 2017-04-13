@@ -21,8 +21,13 @@ div {
   top: 120px;
   border-radius: 16px;
   display: inline-block;
-  background-color: purple;
-  color: white;
+  /*background-color: purple;*/
+  /*background-color: #6a60a9; */
+  /*background-color: #45d9fd; */
+  /*background-color: #c8c8a9; */
+  /*background-color: #ee6e9f; */
+  background-color: #A593E0; 
+  color: #FFF;
 
   animation-name: bounce;
   -webkit-animation-name: bounce;

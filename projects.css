@@ -19,7 +19,7 @@ img {
   box-shadow: 3px 3px 7px #DADADA;
   float: left;
   display: block;
-  margin: 15px;
+  margin-right: 65px;
 }
 
 
@@ -50,7 +50,14 @@ figure {
   margin: 50px;
 }
 
-figcaption {
-  padding: 10px;
-  border: 1px solid red; 
+/*figcaption {
+  border: 1px solid red;
+}*/
+
+.fourth {
+  margin-top: -16px;
+}
+
+.third {
+  margin-top: -50px;
 }

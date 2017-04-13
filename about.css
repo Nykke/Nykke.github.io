@@ -28,5 +28,12 @@
 
 .flower {
 	float: right;
-  width: 39.7em; 
+  width: 39.7em;
+  top: 80px;
+  right: 455px;
+  position: absolute;
+}
+
+img {
+  padding-right: 30px; 
 }

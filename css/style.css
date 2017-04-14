@@ -13,12 +13,6 @@ body {
   background-color: #FFFFF3;
 }
 
-h1 {
-  font-weight: 500;
-  font-style: oblique;
-  font-size: 5em;
-}
-
 nav a {
   text-decoration: none;
   text-transform: uppercase;
@@ -61,7 +55,7 @@ h2 {
   /*color: #08182b;*/
   /*color: #fe4365;*/
   /*color: #1a1a1a;*/
-  color: #566270; 
+  color: #566270;
   padding: 1px;
   margin: 10px;
   text-transform: lowercase;

@@ -18,7 +18,7 @@ div {
   width: 150px;
   height: 150px;
   position: relative;
-  top: 90px;
+  top: 170px;
   border-radius: 16px;
   display: inline-block;
   /*background-color: purple;*/
@@ -60,37 +60,3 @@ div {
     40% {-webkit-transform: translateY(-30px);}
     60% {-webkit-transform: translateY(-15px);}
 }
-
-
-
-
-
-/*.face {
-  height: 120px;
-  width: 130px;
-  background: #323232;
-  border-radius: 90px;
-  position: relative;
-
-}
-
-.eye {
-  background: yellow;
-  height: 40px;
-  width: 40px;
-  top: 20px;
-  left: 10px;
-  position: absolute;
-
-}
-
-#right-eye {
-  border-radius: 60px;
-  z-index: 0;
-  position: absolute;
-}
-
-#left-eye {
-  border-radius: 60px;
-  z-index: 0;
-}*/

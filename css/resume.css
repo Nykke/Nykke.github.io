@@ -5,7 +5,7 @@
   text-align: center;
 }
 
-p {
+.iconp {
   padding: 10px;
   font-size: 20px;
   color: #000;
@@ -74,16 +74,16 @@ i {
   font-size: 20px;
 }
 
-.flower {
+.flowerfour {
 	float: right;
   width: 39.7em;
   top: 80px;
-  right: 563px;
+  right: 485px;
   position: absolute;
 }
 
-.flowertwo.violet > .petal {
-  	background: #9b59b6;
+.flowerfour.violet > .petal {
+  background: #9b59b6;
 }
 
 .flowertwo {
@@ -92,4 +92,8 @@ i {
   top: 80px;
   right: 493px;
   position: absolute;
+}
+
+.flowertwo.violet > .petal {
+  background: #9b59b6;
 }

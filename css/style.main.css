@@ -2,32 +2,33 @@ html {
   font-family: 'Muli', sans-serif;
 }
 
-div {
+/*div {
   margin-top: 5em;
+}*/
+
+.squarecontainer {
+  margin-top: 250px;
 }
 
 .square span {
-  display: block;
-  text-align: center;
   height: 100%;
-  font-size: 126px;
+  font-size: 600%;
+  font-weight: bolder;
   padding-top: 12px;
 }
 
+
 .square {
-  width: 150px;
-  height: 150px;
+  margin-top: 2%; 
+  width: 13%;
+  height: 13%;
   position: relative;
-  top: 170px;
-  border-radius: 16px;
+  top: 200%;
+  border-radius: 26%;
   display: inline-block;
-  /*background-color: purple;*/
-  /*background-color: #6a60a9; */
-  /*background-color: #45d9fd; */
-  /*background-color: #c8c8a9; */
-  /*background-color: #ee6e9f; */
   background-color: #A593E0;
   color: #FFF;
+  text-align: center;
 
   animation-name: bounce;
   -webkit-animation-name: bounce;

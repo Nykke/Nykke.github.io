@@ -1,9 +1,9 @@
-h3 {
+.contactinfo {
   font-size: 25px;
   font-weight: lighter;
 }
 
-img {
+.grow {
   height: 90px;
   width: 105px;
   display: block;
@@ -17,10 +17,14 @@ img {
   transform: scale(1.3);
 }
 
-.flower {
+.flowerfive {
 	float: right;
   width: 39.7em;
   top: 80px;
-  right: 365px;
+  right: 279px;
   position: absolute;
+}
+
+.flowerfive.violet > .petal {
+  	background: #9b59b6;
 }

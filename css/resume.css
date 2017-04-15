@@ -91,12 +91,17 @@ i {
   background: #9b59b6;
 }
 
+.flowertwocontainer {
+	position: relative;
+	display: flex;
+	top: 9.7%;
+	z-index: -1;
+}
+
 .flowertwo {
-	float: right;
   width: 39.7em;
-  top: 80px;
-  right: 413px;
-  position: absolute;
+  right: 0.4%;
+  position: relative;
 }
 
 .flowertwo.violet > .petal {

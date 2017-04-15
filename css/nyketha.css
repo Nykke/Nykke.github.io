@@ -1,11 +1,11 @@
 /*inspired by Adam Walker's codepen: Girl Running http://codepen.io/renduh/pen/mRraOd?editors=1100*/
 
-.container {
-  width: 119px;
-  height: 95px;
-  position: relative;
-  left: -160px;
-  top: 30px;
+.headcontainer {
+  width: 97%;
+  height: 70%;
+  position: absolute;
+  left: 1%;
+  top: 14%;
 }
 
 .face {
@@ -16,8 +16,8 @@
   -webkit-border-radius: 100px;
   border-radius: 100px;
   position: absolute;
-  left: 670px;
-  top: 15px;
+  left: 48.2%;
+  top: 3%;
 }
 
 .mouth {
@@ -26,35 +26,35 @@
   border-radius: 0 0 90px 90px;
   -moz-border-radius: 0 0 90px 90px;
   -webkit-border-radius: 0 0 90px 90px;
-  background: #fff;
+  background: #FFF;
   position: absolute;
-  left: 725px;
-  top: 130px;
+  left: 52.2%;
+  top: 24%;
 }
 
 .right-ear {
   width: 24px;
   height: 26px;
-  background: #974e3b;
+  background: #974E3B;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
-  position: absolute;
-  top: 65px;
-  left: 832px;
+  position: relative;
+  top: 12%;
+  left: 60%;
   z-index: 1;
 }
 
 .left-ear {
   width: 24px;
   height: 26px;
-  background: #974e3b;
+  background: #974E3B;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
   position: absolute;
-  top: 65px;
-  right: -568px;
+  top: 13%;
+  left: 47.4%;
   z-index: 0;
 }
 
@@ -66,8 +66,8 @@
   -webkit-border-radius: 50px;
   border-radius: 50px;
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0%;
+  left: 0%;
   z-index: 0;
 }
 
@@ -79,16 +79,16 @@
   -webkit-border-radius: 50px;
   border-radius: 50px;
   position: absolute;
-  top: -70px;
-  left: 10px;
+  top: 19%;
+  left: 17%;
   z-index: 0;
 }
 
 .eyes {
   height: 45px;
-  width: 96px;
-  top: -13px;
-  left: 710px;
+  width: 99px;
+  top: 12%;
+  left: 51.1%;
   position: absolute;
 }
 
@@ -119,8 +119,8 @@
   -webkit-border-radius: 50px;
   border-radius: 50px;
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0%;
+  right: 0%;
   z-index: 0;
 }
 
@@ -132,36 +132,36 @@
   -webkit-border-radius: 50px;
   border-radius: 50px;
   position: absolute;
-  top: -70px;
-  left: 10px;
+  top: 19%;
+  left: 17%;
   z-index: 0;
 }
 
 .bun {
   width: 115px;
-  height: 100px;
+  height: 110px;
   background: #3d3435;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
   position: absolute;
-  top: -34px;
-  left: 700px;
+  top: -7%;
+  left: 50%;
   z-index: -1;
 }
 
-.container .hair {
+.headcontainer .hair {
 	position: absolute;
 	width: 152px;
-	left: 570%;
-	top: 9%;
+	left: 48.9%;
+	top: 1%;
 	height: 58px;
 	border-radius: 150px 150px 0 0;
 	background-color: #3d3435;
 	z-index: 9998;
 }
 
-.container .hair::after {
+.headcontainer .hair::after {
 	position: absolute;
 	content: '';
 	top: 35%;

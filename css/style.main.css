@@ -2,12 +2,8 @@ html {
   font-family: 'Muli', sans-serif;
 }
 
-/*div {
-  margin-top: 5em;
-}*/
-
 .squarecontainer {
-  margin-top: 250px;
+  margin-top: 30%;
 }
 
 .square span {
@@ -19,7 +15,7 @@ html {
 
 
 .square {
-  margin-top: 2%; 
+  margin-top: 2%;
   width: 13%;
   height: 13%;
   position: relative;

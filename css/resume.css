@@ -74,12 +74,17 @@ i {
   font-size: 20px;
 }
 
+.flowerfourcontainer {
+	position: relative;
+	display: flex;
+	top: 9.7%;
+	z-index: -1;
+}
+
 .flowerfour {
-	float: right;
   width: 39.7em;
-  top: 80px;
-  right: 485px;
-  position: absolute;
+  right: 0.2%;
+	position: relative;
 }
 
 .flowerfour.violet > .petal {

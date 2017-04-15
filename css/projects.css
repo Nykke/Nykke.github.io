@@ -15,7 +15,7 @@ button {
   font-size: 14px;
 }
 
-img {
+.projects {
   box-shadow: 3px 3px 7px #DADADA;
   float: left;
   display: block;
@@ -27,12 +27,16 @@ img {
   font-size: 22px;
 }
 
-.flower {
+.flowerthree {
 	float: right;
   width: 39.7em;
   top: 80px;
-  right: 475px;
+  right: 395px;
   position: absolute;
+}
+
+.flowerthree.violet > .petal {
+  background: #9b59b6;
 }
 
 p {
@@ -50,9 +54,6 @@ figure {
   margin: 50px;
 }
 
-/*figcaption {
-  border: 1px solid red;
-}*/
 
 .fourth {
   margin-top: -16px;

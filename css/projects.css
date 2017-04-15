@@ -22,17 +22,22 @@ button {
   margin-right: 65px;
 }
 
-
 .tech {
   font-size: 22px;
 }
 
+.flowerthreecontainer {
+	position: relative;
+	display: flex;
+	top: 1%;
+	z-index: -1;
+  border: 1px solid red;
+}
+
 .flowerthree {
-	float: right;
   width: 39.7em;
-  top: 80px;
-  right: 395px;
-  position: absolute;
+  right: 1%;
+	position: relative;
 }
 
 .flowerthree.violet > .petal {

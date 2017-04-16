@@ -280,3 +280,57 @@ iphone 6, Nexus6, galaxy s5 */
   }
 
 }
+
+/*landscape media query for nexus 5x for header and sections: about me, projects, skills, resume*/
+
+@media (max-width: 732px) {
+
+  nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-size: 80%;
+    padding-right: 40px;
+    color: #A593E0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #A593E0;
+  }
+
+  nav a:hover {
+    padding: 2%;
+  }
+
+  .opening {
+    color: #635EDE;
+    font-size: 88%;
+    font-weight: 800;
+    padding-right: 6px;
+    padding-left: 8px;
+  }
+
+  .iconp {
+    padding: 10px;
+    font-size: 100%;
+    color: #000;
+    font-weight: bold;
+  }
+
+  i {
+    font-size: 360%;
+  }
+
+  .skills {
+    font-size: 115%;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .aboutp {
+    font-size: 93%;
+  }
+
+}

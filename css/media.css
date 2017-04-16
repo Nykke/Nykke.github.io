@@ -89,8 +89,52 @@
 
 }*/
 
-@media screen and (max-width:400px) {
+/*internet explorer*/
+
+/*@media screen and (max-width:400px) {
     @-ms-viewport{
-        width:320px;
+        width: 320px;
     }
+}*/
+
+@media (max-width: 800px) {
+
+  nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-size: 80%;
+    padding-right: 48px;
+    color: #A593E0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #A593E0;
+  }
+
+  nav a:hover {
+    padding: 2%;
+  }
+
+  h2 {
+    font-weight: 900;
+    font-size: 260%;
+    color: #566270;
+    padding: 1px;
+    margin: 10px;
+    text-transform: lowercase;
+    position: relative;
+  }
+
+  .opening {
+    color: #635EDE;
+    font-size: 88%;
+    font-weight: 800;
+    padding-right: 6px;
+    padding-left: 10px;
+  }
+
+
 }

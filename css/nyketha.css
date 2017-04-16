@@ -1,5 +1,6 @@
 /*inspired by Adam Walker's codepen: Girl Running http://codepen.io/renduh/pen/mRraOd?editors=1100*/
 
+/*beginning of face animation of cartoon nyketha*/
 .headcontainer {
   width: 97%;
   height: 70%;
@@ -58,6 +59,7 @@
   z-index: 0;
 }
 
+/*eye animation*/
 .right-eye {
   width: 45px;
   height: 45px;
@@ -137,6 +139,7 @@
   z-index: 0;
 }
 
+/*hair animation*/
 .bun {
   width: 115px;
   height: 110px;

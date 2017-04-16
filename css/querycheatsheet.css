@@ -1,7 +1,5 @@
 @media screen and (max-width: 870px){
-    .infobox {
-      display: none;
-    }
+
 }
 
 /* ----------- Non-Retina Screens ----------- */
@@ -34,14 +32,7 @@
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    ul {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      }
-      #projects_body{
-        margin-top: 50%;
-      }
+
 }
 
 /* Landscape */
@@ -67,14 +58,7 @@
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) {
-    ul {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      }
-      #projects_body{
-        margin-top: 50%;
-      }
+
 }
 
 /* Landscape */
@@ -85,10 +69,7 @@
   and (orientation: landscape) {
 
 }
-```
 
-[10:31]
- ```
 /* ----------- iPad mini ----------- */
 
 /* Portrait and Landscape */
@@ -105,14 +86,7 @@
   and (max-device-width: 1024px)
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 1) {
-    ul {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      }
-      #projects_body{
-        margin-top: 50%;
-      }
+
 }
 
 /* Landscape */
@@ -138,14 +112,7 @@
   and (max-device-width: 1024px)
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 1) {
-    ul {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      }
-      #projects_body{
-        margin-top: 50%;
-      }
+
 }
 
 /* Landscape */
@@ -172,14 +139,7 @@
   and (max-device-width: 1024px)
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 2) {
-    ul {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      }
-      #projects_body{
-        margin-top: 50%;
-      }
+
 }
 
 /* Landscape */
@@ -238,14 +198,7 @@
 @media
   (max-device-width: 800px)
   and (orientation: portrait) {
-    ul {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      }
-      #projects_body{
-        margin-top: 50%;
-      }
+
 }
 
 /* Landscape */

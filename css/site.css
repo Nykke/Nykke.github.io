@@ -1,0 +1,604 @@
+/*style for overall site*/
+
+html {
+  font-family: 'Muli', sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 80%;
+  background-color: #FFFFF3;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 800;
+  font-size: 130%;
+  padding-right: 48px;
+  color: #A593E0;
+}
+
+a {
+  text-decoration: none;
+  color: #A593E0;
+}
+
+nav a:hover {
+  padding: 4%;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 360%;
+  color: #566270;
+  padding: 1px;
+  margin: 10px;
+  text-transform: lowercase;
+  position: relative;
+}
+
+header {
+  overflow: hidden;
+  background-color: #E0E3DA;
+  position: fixed;
+  height: 70px;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #E0E3DA;
+  width: 100vw;
+  height: 35px;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+/*style for name in header*/
+.opening {
+  color: #635EDE;
+  font-size: 158%;
+  font-weight: 800;
+  padding-right: 8px;
+  padding-left: 18px;
+}
+
+/*style for footer content*/
+.ending {
+  font-size: 90%;
+  padding-right: 10px;
+  text-align: right;
+}
+
+/*style for flower for sections*/
+.flower.violet > .petal {
+  background: #9b59b6;
+}
+
+.petal {
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	float: left;
+}
+
+.tl {
+	border-bottom-right-radius: 0px;
+}
+
+.tr {
+	border-bottom-left-radius: 0px;
+}
+
+.bl {
+	border-top-right-radius: 0px;
+	clear: left;
+}
+
+.br {
+	border-top-left-radius: 0px;
+}
+
+/*bouncing tiles*/
+.squarecontainer {
+  margin-top: 30%;
+}
+
+.square span {
+  height: 100%;
+  font-size: 600%;
+  font-weight: bolder;
+  padding-top: 12px;
+}
+
+.square {
+  margin-top: 2%;
+  width: 13%;
+  height: 13%;
+  position: relative;
+  top: 200%;
+  border-radius: 26%;
+  display: inline-block;
+  background-color: #A593E0;
+  color: #FFF;
+  text-align: center;
+
+  animation-name: bounce;
+  -webkit-animation-name: bounce;
+  -moz-webkit-animation: bounce;
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  -moz-webkit-animation-duration: 4s;
+  animation-timing-function: linear;
+  -webkit-timing-function: linear;
+  -moz-webkit-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-iteration-count: infinite;
+  -moz-webkit-iteration-count: infinite;
+
+  box-shadow: 10px 10px 5px #888888;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+}
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+    40% {-webkit-transform: translateY(-30px);}
+    60% {-webkit-transform: translateY(-15px);}
+}
+@-moz-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+    40% {-webkit-transform: translateY(-30px);}
+    60% {-webkit-transform: translateY(-15px);}
+}
+
+/*inspired by Adam Walker's codepen: Girl Running http://codepen.io/renduh/pen/mRraOd?editors=1100*/
+
+/*beginning of face animation of cartoon nyketha*/
+.headcontainer {
+  width: 97%;
+  height: 70%;
+  position: absolute;
+  left: 1%;
+  top: 15%;
+}
+
+.face {
+  width: 179px;
+  height: 175px;
+  background: #974e3b;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  position: absolute;
+  left: 48.2%;
+  top: 3%;
+}
+
+.mouth {
+  height: 40px;
+  width: 68px;
+  border-radius: 0 0 90px 90px;
+  -moz-border-radius: 0 0 90px 90px;
+  -webkit-border-radius: 0 0 90px 90px;
+  background: #FFF;
+  position: absolute;
+  left: 52.2%;
+  top: 24%;
+}
+
+.right-ear {
+  width: 24px;
+  height: 26px;
+  background: #974E3B;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: relative;
+  top: 12%;
+  left: 59.9%;
+  z-index: 1;
+}
+
+.left-ear {
+  width: 24px;
+  height: 26px;
+  background: #974E3B;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  top: 13%;
+  left: 47.6%;
+  z-index: 0;
+}
+
+/*eye animation*/
+.right-eye {
+  width: 45px;
+  height: 45px;
+  background: #fff;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 0;
+}
+
+.right-pupil {
+  width: 30px;
+  height: 30px;
+  background: #231e1f;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  top: 19%;
+  left: 17%;
+  z-index: 0;
+}
+
+.eyes {
+  height: 45px;
+  width: 99px;
+  top: 12%;
+  left: 51.1%;
+  position: absolute;
+}
+
+@keyframes blink {
+  0%   {top: -18px;}
+  48%  {top: -18px;}
+  50%  {top: 0px;}
+  52%  {top: -18px;}
+  100% {top: -18px;}
+}
+
+.top-eyelid {
+  position: absolute;
+  width: 100%;
+  height: 25px;
+  left: 0;
+  top: -18px;
+  z-index: 3;
+  background: #974e3b;
+  animation: blink 3s infinite;
+}
+
+.left-eye {
+  width: 45px;
+  height: 45px;
+  background: #fff;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  z-index: 0;
+}
+
+.left-pupil {
+  width: 30px;
+  height: 30px;
+  background: #231e1f;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  top: 19%;
+  left: 17%;
+  z-index: 0;
+}
+
+/*hair animation*/
+.bun {
+  width: 115px;
+  height: 110px;
+  background: #3d3435;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  top: -7%;
+  left: 50%;
+  z-index: -1;
+}
+
+.headcontainer .hair {
+	position: absolute;
+	width: 152px;
+	left: 48.9%;
+	top: 1%;
+	height: 58px;
+	border-radius: 150px 150px 0 0;
+	background-color: #3d3435;
+	z-index: 9998;
+}
+
+.headcontainer .hair::after {
+	position: absolute;
+	content: '';
+	top: 35%;
+	left: 8%;
+	border-bottom: 40px solid #974e3b;
+	border-left: 35px solid transparent;
+	border-right: 35px solid transparent;
+	z-index: 0;
+}
+
+/*beginning of about me section*/
+
+.container {
+	position: relative;
+	display: flex;
+	top: 9.7%;
+	z-index: -1;
+}
+
+.flower {
+  width: 39.7em;
+  right: 0.2%;
+	position: relative;
+}
+
+.nyketha {
+	padding: 1%;
+	float: left;
+	width: 50%;
+}
+
+.aboutp {
+	font-size: 110%;
+}
+
+/*beginning of projects section*/
+
+.git {
+  background-color: #D4AF37;
+}
+
+.site {
+  background-color: #CE1B74;
+}
+
+button {
+  border: none;
+  padding: 8px 15px 8px 15px;
+  box-shadow: 1px 1px 4px #DADADA;
+  border-radius: 2px;
+  color: #FFF;
+  font-size: 50%;
+}
+
+.projects {
+  box-shadow: 3px 3px 7px #DADADA;
+  display: flex;
+  margin-right: 5%;
+  align-items: center;
+  align-content: center;
+  width: 80%;
+}
+
+.tech {
+  font-size: 100%;
+}
+
+.flowerthreecontainer {
+	position: relative;
+	display: flex;
+	top: 1%;
+	z-index: -1;
+}
+
+.flowerthree {
+  width: 39.7em;
+  right: 1%;
+	position: relative;
+}
+ 
+.flowerthree.violet > .petal {
+  background: #9b59b6;
+}
+
+.projectp {
+  font-size: 90%;
+}
+
+.projecttitle {
+  font-size: 110%;
+  font-weight: bold;
+}
+
+figure {
+  padding: 3%;
+}
+
+figcaption {
+  border: 1px solid #FCFCFC;
+  width: 69%;
+  right: -6.8%;
+  margin-top: -2.4%;
+  position: relative;
+  z-index: -1;
+  background-color: #FCFCFC;
+  box-shadow: 3px 3px 7px #DADADA;
+}
+
+.fourth {
+  margin-top: -1%;
+}
+
+.third {
+  margin-bottom: -1%;
+}
+
+.first {
+  margin-top: -3%;
+}
+
+/*beginning of skills and resume sections*/
+
+.icons {
+  display: block;
+  float: left;
+  padding: 25px;
+  text-align: center;
+}
+
+.iconp {
+  padding: 10px;
+  font-size: 110%;
+  color: #000;
+  font-weight: bold;
+}
+
+i {
+  font-size: 400%;
+}
+
+.skills {
+  font-size: 135%;
+  font-weight: bold;
+  color: #000;
+}
+
+.icon-mongodb {
+  color: #228B22;
+}
+
+.icon-postgres {
+  color: #0000b2;
+}
+
+.icon-ruby {
+  color: #E0115F;
+}
+
+.icon-ruby-on-rails {
+  color: #B22222;
+}
+
+.icon-javascript {
+  color: #DACD4C;
+}
+
+.icon-css3 {
+  color: blue;
+}
+
+.icon-html5 {
+  color: orange;
+}
+
+.icon-nodejs {
+  color: #8BB54E;
+}
+
+.icon-reactjs {
+  color: #87ceeb;
+}
+
+.icon-jquery {
+  color: #454C7B;
+}
+
+.icon-angular {
+  color: #b20000;
+}
+
+.icon-git {
+  color: #FF8C00;
+}
+
+.separate {
+  font-size: 20px;
+}
+
+.flowerfourcontainer {
+	position: relative;
+	display: flex;
+	top: 9.7%;
+	z-index: -1;
+}
+
+.flowerfour {
+  width: 39.7em;
+  right: 0.2%;
+	position: relative;
+}
+
+.flowerfour.violet > .petal {
+  background: #9b59b6;
+}
+
+.flowertwocontainer {
+	position: relative;
+	display: flex;
+	top: 9.7%;
+	z-index: -1;
+}
+
+.flowertwo {
+  width: 39.7em;
+  right: 0.4%;
+  position: relative;
+}
+
+.flowertwo.violet > .petal {
+  background: #9b59b6;
+}
+
+/*beginning of contact me section*/
+
+.contactinfo {
+  font-size: 130%;
+  font-weight: lighter;
+}
+
+.grow {
+  display: block;
+  float: left;
+  width: 10%;
+  height: 8%;
+  padding: 21.5px;
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.flowerfivecontainer {
+	position: relative;
+	display: flex;
+	top: 9.7%;
+	z-index: -1;
+}
+
+.flowerfive {
+  width: 39.7em;
+  right: 0.6%;
+	position: relative;
+}
+
+.flowerfive.violet > .petal {
+  	background: #9b59b6;
+}
+
+.contactcontainer {
+  position: relative;
+}

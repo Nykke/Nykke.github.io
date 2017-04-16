@@ -12,18 +12,20 @@ button {
   box-shadow: 1px 1px 4px #DADADA;
   border-radius: 2px;
   color: #FFF;
-  font-size: 14px;
+  font-size: 50%;
 }
 
 .projects {
   box-shadow: 3px 3px 7px #DADADA;
-  float: left;
-  display: block;
-  margin-right: 65px;
+  display: flex;
+  margin-right: 5%;
+  align-items: center;
+  align-content: center;
+  width: 80%;
 }
 
 .tech {
-  font-size: 22px;
+  font-size: 100%;
 }
 
 .flowerthreecontainer {
@@ -31,7 +33,6 @@ button {
 	display: flex;
 	top: 1%;
 	z-index: -1;
-  border: 1px solid red;
 }
 
 .flowerthree {
@@ -45,25 +46,37 @@ button {
 }
 
 p {
-  font-size: 20px;
-  left: 30px;
+  font-size: 90%;
 }
 
 .projecttitle {
-  font-size: 23px;
+  font-size: 110%;
   font-weight: bold;
 }
 
 figure {
-  padding: 40px;
-  margin: 50px;
+  padding: 3%;
 }
 
+figcaption {
+  border: 1px solid #FCFCFC;
+  width: 69%;
+  right: -6.8%;
+  margin-top: -2.4%;
+  position: relative;
+  z-index: -1;
+  background-color: #FCFCFC;
+  box-shadow: 3px 3px 7px #DADADA;
+}
 
 .fourth {
-  margin-top: -16px;
+  margin-top: -1%;
 }
 
 .third {
-  margin-top: -50px;
+  margin-bottom: -1%;
+}
+
+.first {
+  margin-top: -3%; 
 }

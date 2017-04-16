@@ -1,14 +1,45 @@
+.contacts {
+  display: block;
+  float: left;
+  padding: 65px;
+  text-align: center;
+  margin-left: 4%;
+  width: 15%;
+  height: 8%;
+  word-wrap: break-word;
+  /*border: 1px red solid;*/
+  z-index: -1;
+}
+
 .contactinfo {
-  font-size: 130%;
-  font-weight: lighter;
+  font-size: 100%;
+  font-weight: bold;
+  /*border: 1px blue solid;*/
+  padding: 30px;
+  width: 160%;
+  left: -38%;
+  position: relative;
+  z-index: -1;
+  box-shadow: 3px 3px 7px #DADADA;
+}
+
+.email {
+  top: 40px;
+}
+
+.phone {
+  top: 18px;
+}
+
+.contactp {
+  margin-left: -22px;
 }
 
 .grow {
-  display: block;
-  float: left;
-  width: 10%;
-  height: 8%;
-  padding: 21.5px;
+  width: 55%;
+  padding: 15px;
+  /*border: 5px solid green;*/
+
 }
 
 .grow:hover {
@@ -32,8 +63,4 @@
 
 .flowerfive.violet > .petal {
   	background: #9b59b6;
-}
-
-.contactcontainer {
-  position: relative;
 }

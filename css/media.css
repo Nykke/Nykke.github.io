@@ -27,15 +27,15 @@
 }*/
 
 /*site is responsive and is already formatted for the following:
-Blackberry playbook, all sections except home and contact me, those are funky and only the landscape view;
+Blackberry playbook, all sections except home, funky and only the landscape view;
 Kindle Fire HD, all sections in landscape and protrait except homepage;
 Laptop with HiDPI screen, all sections
 Laptop with MDPI screen, all sections except home, animation is off
 Laptop with touch, all sections except home, animation is off
-Nexus 10, all sections, except home, animation is a little funky for landscape and all sections except contact me and home, those are funky
-Ipad Mini, all sections except home and contact me for both landscape and protrait, those are funky
-Ipad, all sections except home and contact me, those are funky in both landscape and protrait
-Ipad Pro, all sections except home in landscape which is funky and all sections except home and contact me in protrait, those are off  */
+Nexus 10, all sections, except home, animation is a little funky for landscape and protrait
+Ipad Mini, all sections except home for both landscape and protrait, funky
+Ipad, all sections except home, funky in both landscape and protrait
+Ipad Pro, all sections except home in landscape and protrait which is funky */
 
 
 /*landscape media query for the header for Nexus 7*/
@@ -70,8 +70,8 @@ Ipad Pro, all sections except home in landscape which is funky and all sections 
   }
 
 }
-/*protrait and landscape media query for the header and sections: about me, projects, skills, resume for
-the landscape for iphone 6 plus*/
+/*protrait and landscape media query for the header and sections: about me, projects, skills, resume
+and contact me for the landscape for iphone 6 plus*/
 @media (max-width: 800px) {
 
   nav a {
@@ -113,7 +113,7 @@ the landscape for iphone 6 plus*/
 
 }
 
-/*landscape media query for nexus 5x for header and sections: about me, projects, skills, resume*/
+/*landscape media query for Nexus 5x for header and sections: about me, projects, skills, resume and contact me*/
 
 @media (max-width: 732px) {
 
@@ -167,8 +167,8 @@ the landscape for iphone 6 plus*/
 
 }
 
-/*landscape media query for the header and sections: about me, projects, skills, resume for
-iPhone 6, Nexus6, Galaxy s5, blackberry Z30, Galaxy note 3, LG Optimus L70, Miscrosoft Lumina 950, Nokia N9 */
+/*landscape media query for the header and sections: about me, projects, skills, resume and contact me for
+iPhone 6, Nexus6P, Galaxy s5, Blackberry Z30, Galaxy Note 3, LG Optimus L70, Miscrosoft Lumina 950, Nokia N9 */
 @media (max-width: 667px) {
 
   nav a {
@@ -221,7 +221,7 @@ iPhone 6, Nexus6, Galaxy s5, blackberry Z30, Galaxy note 3, LG Optimus L70, Misc
 
 }
 
-/*landscape media query for iphone 5 and Nokia Lumia 520 for header and sections: about me, projects, skills, resume*/
+/*landscape media query for iphone 5 and Nokia Lumia 520 for header and sections: about me, projects, skills, resume and contact me*/
 @media (max-width: 568px)
   and (device-height: 320px) {
 

@@ -31,12 +31,12 @@ nav a:hover {
 
 h2 {
   font-weight: 900;
-  font-size: 400%;
+  font-size: 360%;
   color: #566270;
   padding: 1px;
   margin: 10px;
   text-transform: lowercase;
-  position: relative; 
+  position: relative;
 }
 
 header {

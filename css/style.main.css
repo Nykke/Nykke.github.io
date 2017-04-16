@@ -2,6 +2,7 @@ html {
   font-family: 'Muli', sans-serif;
 }
 
+/*bouncing tiles*/
 .squarecontainer {
   margin-top: 30%;
 }
@@ -12,7 +13,6 @@ html {
   font-weight: bolder;
   padding-top: 12px;
 }
-
 
 .square {
   margin-top: 2%;

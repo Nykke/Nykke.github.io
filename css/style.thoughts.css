@@ -1,13 +1,13 @@
 .contactinfo {
-  font-size: 25px;
+  font-size: 130%;
   font-weight: lighter;
 }
 
 .grow {
-  height: 90px;
-  width: 105px;
   display: block;
   float: left;
+  width: 10%;
+  height: 8%;
   padding: 21.5px;
 }
 
@@ -22,7 +22,6 @@
 	display: flex;
 	top: 9.7%;
 	z-index: -1;
-  border: 1px solid red;
 }
 
 .flowerfive {
@@ -33,4 +32,8 @@
 
 .flowerfive.violet > .petal {
   	background: #9b59b6;
+}
+
+.contactcontainer {
+  position: relative;
 }

@@ -22,83 +22,56 @@
     padding-top: 10px;
   }
 
+
+
+}*/
+
+/*site is responsive and is already formatted for the following:
+Blackberry playbook, all sections except home and contact me, those are funky and only the landscape view;
+Kindle Fire HD, all sections in landscape and protrait except homepage;
+Laptop with HiDPI screen, all sections
+Laptop with MDPI screen, all sections except home, animation is off
+Laptop with touch, all sections except home, animation is off
+Nexus 10, all sections, except home, animation is a little funky for landscape and all sections except contact me and home, those are funky
+Ipad Mini, all sections except home and contact me for both landscape and protrait, those are funky
+Ipad, all sections except home and contact me, those are funky in both landscape and protrait
+Ipad Pro, all sections except home in landscape which is funky and all sections except home and contact me in protrait, those are off  */
+
+
+/*landscape media query for the header for Nexus 7*/
+
+@media (max-width: 960px) {
+
   nav a {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    font-weight: bolder;
-    font-size: .9em;
-    padding-right: .1em;
-    padding-left: .1em;
-    color: #15B5CB;
+    font-weight: 800;
+    font-size: 86%;
+    padding-right: 43px;
+    color: #A593E0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #A593E0;
+  }
+
+  nav a:hover {
+    padding: 2%;
   }
 
   .opening {
     color: #635EDE;
-    font-size: 0em;
-    font-weight: 1800;
-    padding-right: .1em;
+    font-size: 100%;
+    font-weight: 800;
+    padding-right: 6px;
+    padding-left: 10px;
   }
 
-  .ending {
-    font-size: .8em;
-  }
-
-  .nyketha {
-    height: 200px;
-    width: 300px;
-    position: relative;
-    left: 20px;
-  }
-
-  img {
-    height: 200px;
-    width: 300px;
-    right: 8px;
-  }
-
-  .tech {
-    font-size: 13px;
-  }
-
-  button {
-    border: none;
-    padding: 3px 8px 3px 8px;
-    box-shadow: 1px 1px 4px #DADADA;
-    border-radius: 2px;
-    color: #FFF;
-    font-size: 14px;
-  }
-
-  i {
-    font-size: 30px;
-  }
-
-  p {
-    font-size: 15px;
-  }
-
-  .skills {
-    font-size: 17px;
-  }
-
-  img {
-    height: 90px;
-    width: 110px;
-  }
-
-}*/
-
-/*internet explorer*/
-
-/*@media screen and (max-width:400px) {
-    @-ms-viewport{
-        width: 320px;
-    }
-}*/
-
+}
 /*protrait and landscape media query for the header and sections: about me, projects, skills, resume for
-ipad and ipad pro and the landscape for iphone 6 plus*/
+the landscape for iphone 6 plus*/
 @media (max-width: 800px) {
 
   nav a {
@@ -138,11 +111,64 @@ ipad and ipad pro and the landscape for iphone 6 plus*/
     padding-left: 10px;
   }
 
+}
+
+/*landscape media query for nexus 5x for header and sections: about me, projects, skills, resume*/
+
+@media (max-width: 732px) {
+
+  nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-size: 80%;
+    padding-right: 40px;
+    color: #A593E0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #A593E0;
+  }
+
+  nav a:hover {
+    padding: 2%;
+  }
+
+  .opening {
+    color: #635EDE;
+    font-size: 88%;
+    font-weight: 800;
+    padding-right: 6px;
+    padding-left: 8px;
+  }
+
+  .iconp {
+    padding: 10px;
+    font-size: 100%;
+    color: #000;
+    font-weight: bold;
+  }
+
+  i {
+    font-size: 360%;
+  }
+
+  .skills {
+    font-size: 115%;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .aboutp {
+    font-size: 93%;
+  }
 
 }
 
 /*landscape media query for the header and sections: about me, projects, skills, resume for
-iphone 6, Nexus6, galaxy s5 */
+iPhone 6, Nexus6, Galaxy s5, blackberry Z30, Galaxy note 3, LG Optimus L70, Miscrosoft Lumina 950, Nokia N9 */
 @media (max-width: 667px) {
 
   nav a {
@@ -195,8 +221,9 @@ iphone 6, Nexus6, galaxy s5 */
 
 }
 
-/*landscape media query for iphone 5 for header and sections: about me, projects, skills, resume*/
-@media (max-width: 568px) {
+/*landscape media query for iphone 5 and Nokia Lumia 520 for header and sections: about me, projects, skills, resume*/
+@media (max-width: 568px)
+  and (device-height: 320px) {
 
   nav a {
     text-decoration: none;
@@ -204,7 +231,7 @@ iphone 6, Nexus6, galaxy s5 */
     text-align: center;
     font-weight: 800;
     font-size: 65%;
-    padding-right: 29px;
+    padding-right: 26px;
     color: #A593E0;
   }
 
@@ -277,60 +304,6 @@ iphone 6, Nexus6, galaxy s5 */
     z-index: -1;
     background-color: #FCFCFC;
     box-shadow: 3px 3px 7px #DADADA;
-  }
-
-}
-
-/*landscape media query for nexus 5x for header and sections: about me, projects, skills, resume*/
-
-@media (max-width: 732px) {
-
-  nav a {
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 800;
-    font-size: 80%;
-    padding-right: 40px;
-    color: #A593E0;
-  }
-
-  a {
-    text-decoration: none;
-    color: #A593E0;
-  }
-
-  nav a:hover {
-    padding: 2%;
-  }
-
-  .opening {
-    color: #635EDE;
-    font-size: 88%;
-    font-weight: 800;
-    padding-right: 6px;
-    padding-left: 8px;
-  }
-
-  .iconp {
-    padding: 10px;
-    font-size: 100%;
-    color: #000;
-    font-weight: bold;
-  }
-
-  i {
-    font-size: 360%;
-  }
-
-  .skills {
-    font-size: 115%;
-    font-weight: bold;
-    color: #000;
-  }
-
-  .aboutp {
-    font-size: 93%;
   }
 
 }

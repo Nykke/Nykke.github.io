@@ -97,6 +97,8 @@
     }
 }*/
 
+/*protrait and landscape media query for the header and sections: about me, projects, skills, resume for
+ipad and ipad pro and the landscape for iphone 6 plus*/
 @media (max-width: 800px) {
 
   nav a {
@@ -136,5 +138,59 @@
     padding-left: 10px;
   }
 
+
+}
+
+/*landscape media query for the header and sections: about me, projects, skills, resume for
+iphone 6, Nexus6  */
+@media (max-width: 667px) {
+  
+  nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-size: 80%;
+    padding-right: 44px;
+    color: #A593E0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #A593E0;
+  }
+
+  nav a:hover {
+    padding: 1%;
+  }
+
+  .opening {
+    color: #635EDE;
+    font-size: 78%;
+    font-weight: 800;
+    padding-right: 4px;
+    padding-left: 8px;
+  }
+
+  .skills {
+    font-size: 100%;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .iconp {
+    padding: 10px;
+    font-size: 95%;
+    color: #000;
+    font-weight: bold;
+  }
+
+  i {
+    font-size: 350%;
+  }
+
+  .aboutp {
+  	font-size: 100%;
+  }
 
 }

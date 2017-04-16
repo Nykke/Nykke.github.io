@@ -166,14 +166,7 @@
   and (device-height: 640px)
   and (-webkit-device-pixel-ratio: 3)
   and (orientation: portrait) {
-    ul {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      }
-      #projects_body{
-        margin-top: 50%;
-      }
+  
 }
 
 /* Landscape */

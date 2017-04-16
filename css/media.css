@@ -1,31 +1,3 @@
-/*
-@media screen
-  and (max-width: 360px)
-  and (max-height: 640px)
-  and (-webkit-device-pixel-ratio: 3){
-
-  .square {
-    display: flex;
-    flex-direction: row;
-    width: 40px;
-    height: 40px;
-    position: relative;
-    top: 15px;
-    border-radius: 6px;
-    display: inline-block;
-    left: 20px;
-
-  }
-
-  .square span {
-    font-size: 26px;
-    padding-top: 10px;
-  }
-
-
-
-}*/
-
 /*site is responsive and is already formatted for the following:
 Blackberry playbook, all sections except home, funky and only the landscape view;
 Kindle Fire HD, all sections in landscape and protrait except homepage;
@@ -33,12 +5,335 @@ Laptop with HiDPI screen, all sections
 Laptop with MDPI screen, all sections except home, animation is off
 Laptop with touch, all sections except home, animation is off
 Nexus 10, all sections, except home, animation is a little funky for landscape and protrait
-Ipad Mini, all sections except home for both landscape and protrait, funky
-Ipad, all sections except home, funky in both landscape and protrait
-Ipad Pro, all sections except home in landscape and protrait which is funky */
+iPad Mini, all sections except home for both landscape and protrait, funky
+iPad, all sections except home, funky in both landscape and protrait
+iPad Pro, all sections except home in landscape and protrait which is funky */
 
 
-/*landscape media query for the header for Nexus 7*/
+/*landscape media query for homepage for Kindle Fire HD*/
+/*@media (max-width: 2560px)
+  and (max-height: 1600px){
+
+  .squarecontainer {
+    margin-top: 26%;
+  }
+
+  .square span {
+    height: 90%;
+    font-size: 600%;
+    font-weight: bolder;
+    padding-top: 12px;
+  }
+
+  .square {
+    margin-top: 2%;
+    width: 12.7%;
+    position: relative;
+    top: 200%;
+    border-radius: 26%;
+    display: inline-block;
+    background-color: #A593E0;
+    color: #FFF;
+    text-align: center;
+  }
+
+  .headcontainer {
+    width: 97%;
+    height: 70%;
+    position: absolute;
+    left: 1%;
+    top: 15%;
+  }
+
+  .mouth {
+    height: 40px;
+    width: 68px;
+    border-radius: 0 0 90px 90px;
+    -moz-border-radius: 0 0 90px 90px;
+    -webkit-border-radius: 0 0 90px 90px;
+    background: #FFF;
+    position: absolute;
+    left: 50.5%;
+    top: 13%;
+
+  }
+
+  .right-ear {
+    width: 24px;
+    height: 26px;
+    background: #974E3B;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: 8%;
+    left: 54.8%;
+    z-index: 1;
+  }
+
+  .left-ear {
+    width: 24px;
+    height: 26px;
+    background: #974E3B;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 8%;
+    left: 47.8%;
+    z-index: 0;
+  }
+
+
+  .eyes {
+    height: 45px;
+    width: 99px;
+    top: 7.6%;
+    left: 50%;
+    position: absolute;
+  }
+
+
+  .bun {
+    width: 115px;
+    height: 110px;
+    background: #3d3435;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: -3%;
+    left: 50%;
+    z-index: -1;
+  }
+
+  .headcontainer .hair {
+  	position: absolute;
+  	width: 152px;
+  	left: 48.9%;
+  	top: 2%;
+  	height: 58px;
+  	border-radius: 150px 150px 0 0;
+  	background-color: #3d3435;
+  	z-index: 9998;
+  }
+
+}
+
+/*landscape media query for homepage for iPad pro */
+@media (max-width: 1366px) {
+
+  .squarecontainer {
+    margin-top: 35%;
+  }
+
+  .mouth {
+    height: 40px;
+    width: 68px;
+    border-radius: 0 0 90px 90px;
+    -moz-border-radius: 0 0 90px 90px;
+    -webkit-border-radius: 0 0 90px 90px;
+    background: #FFF;
+    position: absolute;
+    left: 52%;
+    top: 19%;
+  }
+
+  .right-ear {
+    width: 24px;
+    height: 26px;
+    background: #974E3B;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: 9%;
+    left: 60%;
+    z-index: 1;
+  }
+
+  .left-ear {
+    width: 24px;
+    height: 26px;
+    background: #974E3B;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 10%;
+    left: 47.8%;
+    z-index: 0;
+  }
+
+  /*eye animation*/
+  .eyes {
+    height: 45px;
+    width: 99px;
+    top: 11%;
+    left: 51%;
+    position: absolute;
+  }
+
+  /*hair animation*/
+  .bun {
+    width: 115px;
+    height: 110px;
+    background: #3d3435;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: -4.1%;
+    left: 50%;
+    z-index: -1;
+  }
+
+  .headcontainer .hair {
+  	position: absolute;
+  	width: 152px;
+  	left: 48.9%;
+  	top: 2.4%;
+  	height: 58px;
+  	border-radius: 150px 150px 0 0;
+  	background-color: #3d3435;
+  	z-index: 9998;
+  }
+
+}
+
+/*landscape media query for homepage for Laptop with touch*/
+
+@media (max-width: 1280px) {
+
+  .right-ear {
+    width: 24px;
+    height: 26px;
+    background: #974E3B;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: 10%;
+    left: 61.1%;
+    z-index: 1;
+  }
+
+  .left-ear {
+    width: 24px;
+    height: 26px;
+    background: #974E3B;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 11%;
+    left: 47.8%;
+    z-index: 0;
+  }
+
+  .mouth {
+    height: 40px;
+    width: 68px;
+    border-radius: 0 0 90px 90px;
+    -moz-border-radius: 0 0 90px 90px;
+    -webkit-border-radius: 0 0 90px 90px;
+    background: #FFF;
+    position: absolute;
+    left: 52.5%;
+    top: 21%;
+  }
+
+  .eyes {
+    height: 45px;
+    width: 99px;
+    top: 12.2%;
+    left: 51%;
+    position: absolute;
+  }
+
+  .headcontainer .hair {
+  	position: absolute;
+  	width: 152px;
+  	left: 48.9%;
+  	top: 2.7%;
+  	height: 58px;
+  	border-radius: 150px 150px 0 0;
+  	background-color: #3d3435;
+  	z-index: 9998;
+  }
+
+}
+
+/*landscape media query for homepagefor iPad, iPad Mini (allegedly Blackberry Playbook)*/
+@media (max-width: 1240px) {
+
+  .squarecontainer {
+    margin-top: 40%;
+  }
+
+  .eyes {
+    height: 45px;
+    width: 99px;
+    top: 14%;
+    left: 51.5%;
+    position: absolute;
+  }
+
+  .mouth {
+    height: 40px;
+    width: 68px;
+    border-radius: 0 0 90px 90px;
+    -moz-border-radius: 0 0 90px 90px;
+    -webkit-border-radius: 0 0 90px 90px;
+    background: #FFF;
+    position: absolute;
+    left: 53%;
+    top: 25%;
+  }
+
+  .headcontainer .hair {
+    position: absolute;
+    width: 152px;
+    left: 48.9%;
+    top: 3%;
+    height: 58px;
+    border-radius: 150px 150px 0 0;
+    background-color: #3d3435;
+    z-index: 9998;
+  }
+
+  .left-ear {
+    width: 24px;
+    height: 26px;
+    background: #974E3B;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 12%;
+    left: 47.8%;
+    z-index: 0;
+  }
+
+  .right-ear {
+    width: 24px;
+    height: 26px;
+    background: #974E3B;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: 11.3%;
+    left: 64%;
+    z-index: 1;
+  }
+
+}
+
+/*landscape media query for the header for Nexus 7; all sections are already media queried*/
+/*home page is media queried by hiding cartoon nyketha and eliminating bounce animation for the following devices in landscape form:
+Nexus 7, Blackberry Z30, Galaxy Note 3, LG Optimus L70, Microsoft Lumia 950, Nokia N9
+Nokia Lumina 520, Galaxy S5,Nexus 5X, Nexus 6P, iPhone 5, iPhone 6  */
 
 @media (max-width: 960px) {
 
@@ -67,6 +362,35 @@ Ipad Pro, all sections except home in landscape and protrait which is funky */
     font-weight: 800;
     padding-right: 6px;
     padding-left: 10px;
+  }
+
+  .squarecontainer {
+    margin-top: 20%;
+  }
+
+  .square span {
+    height: 90%;
+    font-size: 300%;
+    font-weight: bolder;
+    padding-top: 33px;
+  }
+
+  .square {
+    margin-top: 5%;
+    width: 13%;
+    height: 9%;
+    position: relative;
+    top: 200%;
+    border-radius: 23%;
+    display: inline-block;
+    background-color: #A593E0;
+    color: #FFF;
+    text-align: center;
+    animation-name: none;
+  }
+
+  .headcontainer {
+    display: none;
   }
 
 }

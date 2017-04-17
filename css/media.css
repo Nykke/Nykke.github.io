@@ -10,9 +10,12 @@ iPad, all sections except home, funky in both landscape and protrait
 iPad Pro, all sections except home in landscape and protrait which is funky */
 
 
+/*landscape media queries begins*/
+
 /*landscape media query for homepage for Kindle Fire HD*/
-/*@media (max-width: 2560px)
-  and (max-height: 1600px){
+/*@media screen
+  and (max-width: 2560px)
+  and (max-height: 1600px) {
 
   .squarecontainer {
     margin-top: 26%;
@@ -84,7 +87,6 @@ iPad Pro, all sections except home in landscape and protrait which is funky */
     z-index: 0;
   }
 
-
   .eyes {
     height: 45px;
     width: 99px;
@@ -92,7 +94,6 @@ iPad Pro, all sections except home in landscape and protrait which is funky */
     left: 50%;
     position: absolute;
   }
-
 
   .bun {
     width: 115px;
@@ -118,7 +119,7 @@ iPad Pro, all sections except home in landscape and protrait which is funky */
   	z-index: 9998;
   }
 
-}
+}*/
 
 /*landscape media query for homepage for iPad pro */
 @media (max-width: 1366px) {
@@ -294,8 +295,8 @@ iPad Pro, all sections except home in landscape and protrait which is funky */
   .headcontainer .hair {
     position: absolute;
     width: 152px;
-    left: 48.9%;
-    top: 3%;
+    left: 48%;
+    top: 2.7%;
     height: 58px;
     border-radius: 150px 150px 0 0;
     background-color: #3d3435;
@@ -325,6 +326,85 @@ iPad Pro, all sections except home in landscape and protrait which is funky */
     position: relative;
     top: 11.3%;
     left: 64%;
+    z-index: 1;
+  }
+
+  .bun {
+    width: 115px;
+    height: 110px;
+    background: #3d3435;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: -2%;
+    left: 52%;
+    z-index: -1;
+  }
+}
+
+/*protrait media query for iPad pro*/
+
+@media (max-width: 1024px) {
+
+  .squarecontainer {
+    margin-top: 60%;
+  }
+
+  .eyes {
+    height: 45px;
+    width: 99px;
+    top: 8.5%;
+    left: 51.5%;
+    position: absolute;
+  }
+
+  .mouth {
+    height: 40px;
+    width: 68px;
+    border-radius: 0 0 90px 90px;
+    -moz-border-radius: 0 0 90px 90px;
+    -webkit-border-radius: 0 0 90px 90px;
+    background: #FFF;
+    position: absolute;
+    left: 53%;
+    top: 15%;
+  }
+
+  .headcontainer .hair {
+    position: absolute;
+    width: 152px;
+    left: 48.9%;
+    top: 3%;
+    height: 58px;
+    border-radius: 150px 150px 0 0;
+    background-color: #3d3435;
+    z-index: 9998;
+  }
+
+  .left-ear {
+    width: 24px;
+    height: 26px;
+    background: #974E3B;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 11%;
+    left: 47.3%;
+    z-index: 0;
+  }
+
+  .right-ear {
+    width: 24px;
+    height: 26px;
+    background: #974E3B;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: 10%;
+    left: 65%;
     z-index: 1;
   }
 
@@ -396,6 +476,8 @@ Nokia Lumina 520, Galaxy S5,Nexus 5X, Nexus 6P, iPhone 5, iPhone 6  */
 }
 /*protrait and landscape media query for the header and sections: about me, projects, skills, resume
 and contact me for the landscape for iphone 6 plus*/
+/*protrait for Nexus 10*/
+
 @media (max-width: 800px) {
 
   nav a {
@@ -433,6 +515,14 @@ and contact me for the landscape for iphone 6 plus*/
     font-weight: 800;
     padding-right: 6px;
     padding-left: 10px;
+  }
+
+}
+
+/*protrait media query for iPad mini and iPad*/
+@media (max-width: 768px) {
+  .squarecontainer {
+    margin-top: 60%;
   }
 
 }
@@ -545,6 +635,83 @@ iPhone 6, Nexus6P, Galaxy s5, Blackberry Z30, Galaxy Note 3, LG Optimus L70, Mis
 
 }
 
+/*protrait media query for Blackberry playbook, Nexus 7*/
+
+@media (max-width: 600px) {
+
+  nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-size: 75%;
+    padding-right: 26px;
+    color: #A593E0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #A593E0;
+  }
+
+  nav a:hover {
+    padding: 0%;
+  }
+
+  .opening {
+    color: #635EDE;
+    font-size: 80%;
+    font-weight: 800;
+    padding-right: 3px;
+    padding-left: 8px;
+  }
+
+  .contacts {
+    display: block;
+    float: left;
+    padding: 67px;
+    text-align: center;
+    margin-left: 1%;
+    width: 22%;
+    height: 8%;
+    word-wrap: break-word;
+    z-index: -1;
+  }
+
+  .contactinfo {
+    font-size: 100%;
+    font-weight: bold;
+    padding: 25px;
+    width: 388%;
+    left: -20%;
+    position: relative;
+    z-index: -1;
+    box-shadow: 3px 3px 7px #DADADA;
+  }
+
+  .contactp {
+    margin-left: -22px;
+  }
+
+  .grow {
+    width: 80%;
+    padding: 5px;
+  }
+
+  .email {
+    top: 5px;
+  }
+
+  .phone {
+    top: 5px;
+  }
+
+  .squarecontainer {
+    margin-top: 70%;
+  }
+
+}
+
 /*landscape media query for iphone 5 and Nokia Lumia 520 for header and sections: about me, projects, skills, resume and contact me*/
 @media (max-width: 568px)
   and (device-height: 320px) {
@@ -628,6 +795,545 @@ iPhone 6, Nexus6P, Galaxy s5, Blackberry Z30, Galaxy Note 3, LG Optimus L70, Mis
     z-index: -1;
     background-color: #FCFCFC;
     box-shadow: 3px 3px 7px #DADADA;
+  }
+
+}
+
+/*protrait media queries begin*/
+
+/*protrait media query for Nexus 5X, Nexus 6P, iPhone 6 plus */
+@media (max-width: 414px) {
+
+  nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-size: 60%;
+    padding-right: 8px;
+    color: #A593E0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #A593E0;
+  }
+
+  nav a:hover {
+    padding: 0%;
+  }
+
+  .opening {
+    color: #635EDE;
+    font-size: 80%;
+    font-weight: 800;
+    padding-right: 3px;
+    padding-left: 4px;
+  }
+
+  .ending {
+    font-size: 70%;
+    padding-right: 10px;
+    text-align: right;
+  }
+
+  .squarecontainer {
+    margin-top: 80%;
+  }
+
+  .square span {
+    height: 90%;
+    font-size: 198%;
+    font-weight: bolder;
+    padding-top: 33px;
+  }
+
+  .aboutp {
+  	font-size: 70%;
+  }
+
+  button {
+    border: none;
+    padding: 8px 15px 8px 15px;
+    box-shadow: 1px 1px 4px #DADADA;
+    border-radius: 2px;
+    color: #FFF;
+    font-size: 45%;
+  }
+
+  .projectp {
+    font-size: 80%;
+  }
+
+  .projecttitle {
+    font-size: 90%;
+    font-weight: bold;
+  }
+
+  .tech {
+    font-size: 85%;
+  }
+
+  figcaption {
+    border: 1px solid #FCFCFC;
+    width: 69%;
+    right: -17%;
+    margin-top: -2.4%;
+    position: relative;
+    z-index: -1;
+    background-color: #FCFCFC;
+    box-shadow: 3px 3px 7px #DADADA;
+  }
+
+  .projects {
+    box-shadow: 3px 3px 7px #DADADA;
+    display: flex;
+    margin-right: 5%;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+  }
+
+  h2 {
+    font-weight: 900;
+    font-size: 230%;
+    color: #566270;
+    padding: 1px;
+    margin: 10px;
+    text-transform: lowercase;
+    position: relative;
+  }
+
+  .petal {
+  	width: 9px;
+  	height: 9px;
+  	border-radius: 15px;
+  	float: left;
+  }
+
+  .tl {
+  	border-bottom-right-radius: 1px;
+  }
+
+  .tr {
+  	border-bottom-left-radius: 1px;
+  }
+
+  .bl {
+  	border-top-right-radius: 1px;
+  	clear: left;
+  }
+
+  .br {
+  	border-top-left-radius: 1px;
+  }
+
+  .skills {
+    font-size: 85%;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .iconp {
+    padding: 10px;
+    font-size: 80%;
+    color: #000;
+    font-weight: bold;
+  }
+
+  i {
+    font-size: 300%;
+  }
+
+  .separate {
+    font-size: 78%;
+  }
+
+  .download {
+    font-size: 90%;
+  }
+
+  .contacts {
+    display: block;
+    float: left;
+    padding: 65px;
+    text-align: center;
+    margin-left: 1%;
+    width: 15%;
+    height: 8%;
+    word-wrap: break-word;
+    z-index: -1;
+  }
+
+  .contactinfo {
+    font-size: 100%;
+    font-weight: bold;
+    padding: 30px;
+    width: 370%;
+    left: -17%;
+    position: relative;
+    z-index: -1;
+    box-shadow: 3px 3px 7px #DADADA;
+  }
+
+  .contactp {
+    margin-left: -22px;
+  }
+
+  .grow {
+    width: 190%;
+    padding: 10px;
+  }
+
+}
+
+/*protrait media query for LG Optimus L70, iPhone 6 */
+
+@media (max-width: 384px) {
+
+  nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 55%;
+    padding-right: 8px;
+    color: #A593E0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #A593E0;
+  }
+
+  .opening {
+    color: #635EDE;
+    font-size: 70%;
+    font-weight: 800;
+    padding-right: 3px;
+    padding-left: 4px;
+  }
+
+  .contacts {
+    display: block;
+    float: left;
+    padding: 53px;
+    text-align: center;
+    margin-left: 1%;
+    width: 15%;
+    height: 8%;
+    word-wrap: break-word;
+    z-index: -1;
+  }
+
+  .contactinfo {
+    font-size: 100%;
+    font-weight: bold;
+    padding: 25px;
+    width: 388%;
+    left: -20%;
+    position: relative;
+    z-index: -1;
+    box-shadow: 3px 3px 7px #DADADA;
+  }
+
+  .contactp {
+    margin-left: -22px;
+  }
+
+  .grow {
+    width: 180%;
+    padding: 5px;
+  }
+
+  .email {
+    top: 5px;
+  }
+
+  .phone {
+    top: 5px;
+  }
+
+}
+
+/*protrait media query for Galaxy S5, Blackberry Z30, Galaxy Note 3, Microsoft Lumia 950, Nokia N9*/
+
+@media (max-width: 360px) {
+
+  nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-size: 50%;
+    padding-right:8px;
+    color: #A593E0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #A593E0;
+  }
+
+  nav a:hover {
+    padding: 0%;
+  }
+
+  .opening {
+    color: #635EDE;
+    font-size: 60%;
+    font-weight: 800;
+    padding-right: 3px;
+    padding-left: 4px;
+  }
+
+  .ending {
+    font-size: 70%;
+    padding-right: 10px;
+    text-align: right;
+  }
+
+  .squarecontainer {
+    margin-top: 70%;
+  }
+
+  .square span {
+    height: 90%;
+    font-size: 198%;
+    font-weight: bolder;
+    padding-top: 33px;
+  }
+
+  .aboutp {
+  	font-size: 70%;
+  }
+
+  button {
+    border: none;
+    padding: 8px 15px 8px 15px;
+    box-shadow: 1px 1px 4px #DADADA;
+    border-radius: 2px;
+    color: #FFF;
+    font-size: 45%;
+  }
+
+  .projectp {
+    font-size: 80%;
+  }
+
+  .projecttitle {
+    font-size: 90%;
+    font-weight: bold;
+  }
+
+  .tech {
+    font-size: 85%;
+  }
+
+  figcaption {
+    border: 1px solid #FCFCFC;
+    width: 60%;
+    right: -21.5%;
+    margin-top: -2.4%;
+    position: relative;
+    z-index: -1;
+    background-color: #FCFCFC;
+    box-shadow: 3px 3px 7px #DADADA;
+  }
+
+  .projects {
+    box-shadow: 3px 3px 7px #DADADA;
+    display: flex;
+    margin-right: 5%;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+  }
+
+  h2 {
+    font-weight: 900;
+    font-size: 230%;
+    color: #566270;
+    padding: 1px;
+    margin: 10px;
+    text-transform: lowercase;
+    position: relative;
+  }
+
+  .petal {
+  	width: 9px;
+  	height: 9px;
+  	border-radius: 15px;
+  	float: left;
+  }
+
+  .tl {
+  	border-bottom-right-radius: 1px;
+  }
+
+  .tr {
+  	border-bottom-left-radius: 1px;
+  }
+
+  .bl {
+  	border-top-right-radius: 1px;
+  	clear: left;
+  }
+
+  .br {
+  	border-top-left-radius: 1px;
+  }
+
+  .skills {
+    font-size: 85%;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .iconp {
+    padding: 15px;
+    font-size: 70%;
+    color: #000;
+    font-weight: bold;
+  }
+
+  i {
+    font-size: 200%;
+  }
+
+  .separate {
+    font-size: 78%;
+  }
+
+  .download {
+    font-size: 90%;
+  }
+
+  .contacts {
+    display: block;
+    float: left;
+    padding: 50px;
+    text-align: center;
+    margin-left: 1%;
+    width: 15%;
+    height: 8%;
+    word-wrap: break-word;
+    z-index: -1;
+  }
+
+  .contactinfo {
+    font-size: 100%;
+    font-weight: bold;
+    padding: 30px;
+    width: 388%;
+    left: -20%;
+    position: relative;
+    z-index: -1;
+    box-shadow: 3px 3px 7px #DADADA;
+  }
+
+  .contactp {
+    margin-left: -22px;
+  }
+
+  .grow {
+    width: 190%;
+    padding: 10px;
+  }
+
+}
+
+/*protrait media query for iPhone 5 and Nokia Lumina 520 */
+
+@media (max-width: 320px) {
+
+  nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 80%;
+    padding-right: 15px;
+    color: #A593E0;
+  }
+
+  .opening {
+    color: #635EDE;
+    font-size: 90%;
+    font-weight: 800;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .squarecontainer {
+    margin-top: 80%;
+  }
+
+  .square span {
+    height: 90%;
+    font-size: 180%;
+    font-weight: bolder;
+    padding-top: 33px;
+  }
+
+  .square {
+    margin-top: 2%;
+    width: 12%;
+    position: relative;
+    top: 200%;
+    border-radius: 30%;
+    display: inline-block;
+    background-color: #A593E0;
+    color: #FFF;
+    text-align: center;
+  }
+
+  .aboutp {
+  	font-size: 70%;
+  }
+
+  .iconp {
+    padding: 8px;
+    font-size: 75%;
+    color: #000;
+    font-weight: bold;
+  }
+
+  i {
+    font-size: 250%;
+  }
+
+  .contacts {
+    display: block;
+    float: left;
+    padding: 44px;
+    text-align: center;
+    margin-left: 1%;
+    width: 15%;
+    height: 8%;
+    word-wrap: break-word;
+    z-index: -1;
+  }
+
+  .contactinfo {
+    font-size: 90%;
+    font-weight: bold;
+    padding: 30px;
+    width: 388%;
+    left: -20%;
+    position: relative;
+    z-index: -1;
+    box-shadow: none;
+    box-shadow: 3px 3px 7px #DADADA;
+  }
+
+  .contactp {
+    margin-left: -22px;
+  }
+
+  .grow {
+    width: 160%;
+    padding: 10px;
   }
 
 }

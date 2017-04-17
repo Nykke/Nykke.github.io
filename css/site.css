@@ -108,7 +108,7 @@ footer {
 
 /*bouncing tiles*/
 .squarecontainer {
-  margin-top: 30%;
+  margin-top: 33%;
 }
 
 .square span {
@@ -178,7 +178,7 @@ footer {
 /*inspired by Adam Walker's codepen: Girl Running http://codepen.io/renduh/pen/mRraOd?editors=1100*/
 
 /*beginning of face animation of cartoon nyketha*/
-.headcontainer {
+/*.headcontainer {
   width: 97%;
   height: 70%;
   position: absolute;
@@ -234,10 +234,10 @@ footer {
   top: 13%;
   left: 47.6%;
   z-index: 0;
-}
+}*/
 
 /*eye animation*/
-.right-eye {
+/*.right-eye {
   width: 45px;
   height: 45px;
   background: #fff;
@@ -314,10 +314,10 @@ footer {
   top: 19%;
   left: 17%;
   z-index: 0;
-}
+}*/
 
 /*hair animation*/
-.bun {
+/*.bun {
   width: 115px;
   height: 110px;
   background: #3d3435;
@@ -350,6 +350,15 @@ footer {
 	border-left: 35px solid transparent;
 	border-right: 35px solid transparent;
 	z-index: 0;
+}*/
+
+/*solution to head animation getting distorted when resized*/
+
+.nykethafront {
+	width: 35%;
+  position: absolute;
+  top: 10%;
+  left: 33%;
 }
 
 /*beginning of about me section*/

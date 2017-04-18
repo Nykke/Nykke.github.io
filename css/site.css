@@ -108,7 +108,7 @@ footer {
 
 /*bouncing tiles*/
 .squarecontainer {
-  margin-top: 33%;
+  margin-top: 34%;
 }
 
 .square span {
@@ -355,10 +355,11 @@ footer {
 /*solution to head animation getting distorted when resized*/
 
 .nykethafront {
-	width: 35%;
+	width: 18%;
   position: absolute;
-  top: 10%;
-  left: 33%;
+  top: 9%;
+  left: 40%;
+  z-index: -1;
 }
 
 /*beginning of about me section*/

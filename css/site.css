@@ -25,10 +25,6 @@ a {
   color: #A593E0;
 }
 
-/*nav a:hover {
-  padding: 4%;
-}*/
-
 h2 {
   font-weight: 900;
   font-size: 360%;
@@ -385,6 +381,7 @@ footer {
 
 .aboutp {
 	font-size: 110%;
+  padding-bottom: 20px; 
 }
 
 /*beginning of projects section*/

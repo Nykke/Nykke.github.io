@@ -162,7 +162,7 @@ footer {
     60% {-webkit-transform: translateY(-15%);}
 }
 
-/*.homebutton {
+/*.home {
   display: block;
   position: absolute;
   left: 76%;
@@ -390,11 +390,13 @@ footer {
 
 .git {
   background-color: #D4AF37;
+
 }
 
 .site {
   background-color: #CE1B74;
 }
+
 
 button {
   border: none;
@@ -402,7 +404,9 @@ button {
   box-shadow: 1px 1px 4px #DADADA;
   border-radius: 2px;
   color: #FFF;
-  font-size: 50%;
+  font-size: 70%;
+  margin-left: 14%;
+  display: inline-block;
 }
 
 .projects {
@@ -454,9 +458,9 @@ figcaption {
   right: -6.8%;
   margin-top: -2.4%;
   position: relative;
-  z-index: -1;
   background-color: #FCFCFC;
   box-shadow: 3px 3px 7px #DADADA;
+  z-index: -1;
 }
 
 .fourth {
@@ -464,7 +468,7 @@ figcaption {
 }
 
 .third {
-  margin-bottom: -1%;
+  margin-bottom: 0%;
 }
 
 .first {

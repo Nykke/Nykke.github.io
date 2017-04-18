@@ -381,7 +381,7 @@ footer {
 
 .aboutp {
 	font-size: 110%;
-  padding-bottom: 20px; 
+  padding-bottom: 20px;
 }
 
 /*beginning of projects section*/
@@ -501,14 +501,17 @@ i {
 
 .icon-mongodb {
   color: #228B22;
+  padding-left: 35px;
 }
 
 .icon-postgres {
   color: #0000b2;
+  padding-right: 30px;
 }
 
 .icon-ruby {
   color: #E0115F;
+  padding-left: 40px
 }
 
 .icon-ruby-on-rails {
@@ -525,6 +528,7 @@ i {
 
 .icon-html5 {
   color: orange;
+  padding-right: 5px;
 }
 
 .icon-nodejs {
@@ -533,6 +537,7 @@ i {
 
 .icon-reactjs {
   color: #87ceeb;
+  padding-left: 25px; 
 }
 
 .icon-jquery {
@@ -545,6 +550,7 @@ i {
 
 .icon-git {
   color: #FF8C00;
+  padding-left: 10px;
 }
 
 .separate {

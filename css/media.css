@@ -15,9 +15,11 @@ iPad Pro, all sections except home in landscape and protrait which is funky */
 /*landscape media query for homepage for iPad pro */
 @media (max-width: 1366px) {
 
-  .squarecontainer {
+  /*.squarecontainer {
     margin-top: 38%;
-  }
+    display: flex;
+    flex-wrap: wrap;
+  }*/
 
 }
 
@@ -25,9 +27,11 @@ iPad Pro, all sections except home in landscape and protrait which is funky */
 
 @media (max-width: 1280px) {
 
-  .squarecontainer {
+  /*.squarecontainer {
     margin-top: 40%;
-  }
+    display: flex;
+    flex-wrap: wrap;
+  }*/
 
 }
 
@@ -48,9 +52,11 @@ iPad Pro, all sections except home in landscape and protrait which is funky */
 
 @media (max-width: 1024px) {
 
-  .squarecontainer {
+  /*.squarecontainer {
     margin-top: 60%;
-  }
+    display: flex;
+    flex-wrap: wrap;
+  }*/
 
 }
 
@@ -82,8 +88,10 @@ iPad Pro, all sections except home in landscape and protrait which is funky */
     padding-left: 10px;
   }
 
-  .squarecontainer {
+  /*.squarecontainer {
     margin-top: 36%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .square span {
@@ -96,15 +104,14 @@ iPad Pro, all sections except home in landscape and protrait which is funky */
   .square {
     margin-top: 5%;
     width: 13%;
-    height: 9%;
-    position: relative;
     top: 200%;
     border-radius: 23%;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     background-color: #A593E0;
     color: #FFF;
     text-align: center;
-  }
+  }*/
 
 }
 /*protrait and landscape media query for the header and sections: about me, projects, skills, resume
@@ -149,22 +156,28 @@ and contact me for the landscape for protrait for Nexus 10*/
 
 /*protrait media query for iPad mini and iPad*/
 @media (max-width: 768px) {
-  .squarecontainer {
+  /*.squarecontainer {
     margin-top: 60%;
-  }
+    display: flex;
+    flex-wrap: wrap;
+  }*/
 
 }
 
 /*landscape homepage media query for Nexus 5X, Nexus 6P, iPhone 6 plus*/
 @media (max-width: 732px) {
 
-  .squarecontainer {
+  /*.squarecontainer {
     margin-top: 30%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .square {
     animation-name: none;
-  }
+    display: flex;
+    flex-direction: column;
+  }*/
 
   .nykethafront {
   	width: 13.7%;
@@ -227,13 +240,17 @@ and contact me for the landscape for protrait for Nexus 10*/
 
 /*landscape homepage media query for iPhone 6 plus*/
 @media (max-width: 736px) {
-  .squarecontainer {
+  /*.squarecontainer {
     margin-top: 30%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .square {
     animation-name: none;
-  }
+    display: flex;
+    flex-direction: column;
+  }*/
 
   .nykethafront {
     width: 13.7%;
@@ -297,13 +314,17 @@ iPhone 6, Nexus6P, Galaxy s5, Blackberry Z30, Galaxy Note 3, LG Optimus L70, Mis
 /*landscape media query for Blackberry Z30, Galaxy Note 3, LG Optimus L70
 Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
 @media (max-width: 640px) {
-  .squarecontainer {
+  /*.squarecontainer {
     margin-top: 30%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .square {
     animation-name: none;
-  }
+    display: flex;
+    flex-direction: column;
+  }*/
 
   .nykethafront {
   	width: 13.7%;
@@ -380,10 +401,12 @@ Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
   .phone {
     top: 5px;
   }
-
+/*
   .squarecontainer {
     margin-top: 70%;
-  }
+    display: flex;
+    flex-wrap: wrap;
+  }*/
 
 }
 
@@ -391,13 +414,17 @@ Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
 /*landscape homepage media query for iPhone5 and Nokia Lumia 520 (still a little funky but better)*/
 @media (max-width: 568px)
   and (device-height: 320px) {
-    .squarecontainer {
+    /*.squarecontainer {
       margin-top: 30%;
+      display: flex;
+      flex-wrap: wrap;
     }
 
     .square {
       animation-name: none;
-    }
+      display: flex;
+      flex-direction: column;
+    }*/
 
     .nykethafront {
       width: 13.4%;
@@ -464,6 +491,8 @@ Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
     border-radius: 2px;
     color: #FFF;
     font-size: 45%;
+    margin: 1%;
+    display: inline-block;
   }
 
   .projectp {
@@ -484,8 +513,8 @@ Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
     width: 60%;
     right: -11.6%;
     margin-top: -2.4%;
-    position: relative;
-    z-index: -1;
+    display: flex;
+    flex-direction: column;
     background-color: #FCFCFC;
     box-shadow: 3px 3px 7px #DADADA;
   }
@@ -526,8 +555,10 @@ Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
     text-align: right;
   }
 
-  .squarecontainer {
+  /*.squarecontainer {
     margin-top: 80%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .square span {
@@ -535,7 +566,7 @@ Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
     font-size: 198%;
     font-weight: bolder;
     padding-top: 33px;
-  }
+  }*/
 
   .aboutp {
   	font-size: 70%;
@@ -548,6 +579,8 @@ Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
     border-radius: 2px;
     color: #FFF;
     font-size: 45%;
+    margin: 1%;
+    display: inline-block;
   }
 
   .projectp {
@@ -568,8 +601,8 @@ Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
     width: 69%;
     right: -17%;
     margin-top: -2.4%;
-    position: relative;
-    z-index: -1;
+    display: flex;
+    flex-direction: column;
     background-color: #FCFCFC;
     box-shadow: 3px 3px 7px #DADADA;
   }
@@ -776,7 +809,7 @@ Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
     text-align: right;
   }
 
-  .squarecontainer {
+  /*.squarecontainer {
     margin-top: 70%;
   }
 
@@ -785,7 +818,7 @@ Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
     font-size: 198%;
     font-weight: bolder;
     padding-top: 33px;
-  }
+  }*/
 
   .aboutp {
   	font-size: 70%;
@@ -798,6 +831,8 @@ Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
     border-radius: 2px;
     color: #FFF;
     font-size: 45%;
+    margin: 1%;
+    display: inline-block;
   }
 
   .projectp {
@@ -818,8 +853,8 @@ Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
     width: 60%;
     right: -21.5%;
     margin-top: -2.4%;
-    position: relative;
-    z-index: -1;
+    display: flex;
+    flex-direction: column;
     background-color: #FCFCFC;
     box-shadow: 3px 3px 7px #DADADA;
   }
@@ -947,8 +982,10 @@ Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
     padding-left: 5px;
   }
 
-  .squarecontainer {
+  /*.squarecontainer {
     margin-top: 80%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .square span {
@@ -961,14 +998,14 @@ Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
   .square {
     margin-top: 2%;
     width: 12%;
-    position: relative;
     top: 200%;
     border-radius: 30%;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     background-color: #A593E0;
     color: #FFF;
     text-align: center;
-  }
+  }*/
 
   .aboutp {
   	font-size: 70%;

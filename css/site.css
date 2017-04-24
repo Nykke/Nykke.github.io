@@ -403,8 +403,10 @@ button {
   border-radius: 2px;
   color: #FFF;
   font-size: 70%;
-  margin-left: 14%;
+  margin: 1%;
   display: inline-block;
+  /*flex: 1 1 auto;*/
+
 }
 
 .projects {
@@ -414,6 +416,22 @@ button {
   align-items: center;
   align-content: center;
   width: 80%;
+}
+
+figure {
+  padding: 3%;
+}
+
+figcaption {
+  border: 1px solid #FCFCFC;
+  width: 69%;
+  margin-left: 6.7%;
+  margin-top: -2.4%;
+  background-color: #FCFCFC;
+  box-shadow: 3px 3px 7px #DADADA;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
 }
 
 .tech {
@@ -446,20 +464,7 @@ button {
   font-weight: bold;
 }
 
-figure {
-  padding: 3%;
-}
 
-figcaption {
-  border: 1px solid #FCFCFC;
-  width: 69%;
-  right: -6.8%;
-  margin-top: -2.4%;
-  position: relative;
-  background-color: #FCFCFC;
-  box-shadow: 3px 3px 7px #DADADA;
-  z-index: -1;
-}
 
 .fourth {
   margin-top: -1%;

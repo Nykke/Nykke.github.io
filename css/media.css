@@ -21,6 +21,12 @@ iPad Pro, all sections except home in landscape and protrait which is funky */
     flex-wrap: wrap;
   }*/
 
+  .nykethacontainer{
+    margin-top: 23%;
+
+  }
+
+
 }
 
 /*landscape media query for homepage for Laptop with touch*/
@@ -38,14 +44,16 @@ iPad Pro, all sections except home in landscape and protrait which is funky */
 /*landscape media query for homepagefor iPad, iPad Mini (allegedly Blackberry Playbook)*/
 @media (max-width: 1240px) {
 
-  .nykethafront {
-  	width: 18%;
-    position: absolute;
-    top: 14%;
-    left: 40%;
-    z-index: -1;
+  .typewritercontainer {
+    margin-top: 15%;
+    margin-left: -6%;
   }
 
+  .typewriter h1 {
+	  font-size: 200%;
+	  padding-top: 10px;
+
+	}
 }
 
 /*protrait media query for iPad pro*/
@@ -57,6 +65,27 @@ iPad Pro, all sections except home in landscape and protrait which is funky */
     display: flex;
     flex-wrap: wrap;
   }*/
+
+  .nykethacontainer{
+    margin-top: 33%;
+  }
+
+  .typewritercontainer {
+    margin-top: 25%;
+    margin-left: -6%;
+  }
+
+  .typewriter h1 {
+	  font-size: 300%;
+	  padding-top: 10px;
+	}
+
+  .nykethafront {
+  	width: 28%;
+    position: absolute;
+    left: 40%;
+    z-index: -1;
+  }
 
 }
 
@@ -113,7 +142,29 @@ iPad Pro, all sections except home in landscape and protrait which is funky */
     text-align: center;
   }*/
 
+  .nykethacontainer{
+    margin-top: 22%;
+  }
+
+  .typewritercontainer {
+    margin-top: 18%;
+    margin-left: -6%;
+  }
+
+  .typewriter h1 {
+	  font-size: 200%;
+	  padding-top: 10px;
+	}
+
+  .nykethafront {
+  	width: 20%;
+    position: absolute;
+    left: 40%;
+    z-index: -1;
+  }
+
 }
+
 /*protrait and landscape media query for the header and sections: about me, projects, skills, resume
 and contact me for the landscape for protrait for Nexus 10*/
 
@@ -162,6 +213,27 @@ and contact me for the landscape for protrait for Nexus 10*/
     flex-wrap: wrap;
   }*/
 
+  .nykethacontainer{
+    margin-top: 28%;
+  }
+
+  .typewritercontainer {
+    margin-top: 20%;
+    margin-left: -6%;
+  }
+
+  .typewriter h1 {
+	  font-size: 200%;
+	  padding-top: 10px;
+	}
+
+  .nykethafront {
+  	width: 20%;
+    position: absolute;
+    left: 40%;
+    z-index: -1;
+  }
+
 }
 
 /*landscape homepage media query for Nexus 5X, Nexus 6P, iPhone 6 plus*/
@@ -179,11 +251,24 @@ and contact me for the landscape for protrait for Nexus 10*/
     flex-direction: column;
   }*/
 
+  /*.nykethacontainer{
+    margin-top: 1%;
+  }
+
+  .typewritercontainer {
+    margin-top: 1%;
+    margin-left: -6%;
+  }*/
+
+  .typewriter h1 {
+    font-size: 100%;
+    padding-top: 10px;
+  }
+
   .nykethafront {
-  	width: 13.7%;
+    width: 16%;
     position: absolute;
-    top: 19.4%;
-    left: 41%;
+    left: 40%;
     z-index: -1;
   }
 
@@ -252,13 +337,13 @@ and contact me for the landscape for protrait for Nexus 10*/
     flex-direction: column;
   }*/
 
-  .nykethafront {
+  /*.nykethafront {
     width: 13.7%;
     position: absolute;
     top: 19.4%;
     left: 41%;
     z-index: -1;
-  }
+  }*/
 }
 
 /*landscape media query for the header and sections: about me, projects, skills, resume and contact me for
@@ -311,7 +396,7 @@ iPhone 6, Nexus6P, Galaxy s5, Blackberry Z30, Galaxy Note 3, LG Optimus L70, Mis
 
 }
 
-/*landscape media query for Blackberry Z30, Galaxy Note 3, LG Optimus L70
+/*landscape homepage media query for Blackberry Z30, Galaxy Note 3, LG Optimus L70
 Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
 @media (max-width: 640px) {
   /*.squarecontainer {
@@ -326,13 +411,27 @@ Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
     flex-direction: column;
   }*/
 
+  .nykethacontainer{
+    margin-top: 24%;
+  }
+
+  .typewritercontainer {
+    margin-top: 1%;
+    margin-left: -6%;
+  }
+
+  .typewriter h1 {
+    font-size: 200%;
+    padding-top: 10px;
+  }
+
   .nykethafront {
-  	width: 13.7%;
+    width: 20%;
     position: absolute;
-    top: 19.4%;
-    left: 41%;
+    left: 40%;
     z-index: -1;
   }
+
 }
 
 
@@ -408,6 +507,27 @@ Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
     flex-wrap: wrap;
   }*/
 
+  .nykethacontainer{
+    margin-top: 38%;
+  }
+
+  .typewritercontainer {
+    margin-top: 20%;
+    margin-left: -6%;
+  }
+
+  .typewriter h1 {
+    font-size: 200%;
+    padding-top: 10px;
+  }
+
+  .nykethafront {
+    width: 23%;
+    position: absolute;
+    left: 40%;
+    z-index: -1;
+  }
+
 }
 
 
@@ -426,11 +546,24 @@ Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
       flex-direction: column;
     }*/
 
+    .nykethacontainer{
+      margin-top: 26%;
+    }
+
+    .typewritercontainer {
+      margin-top: 3%;
+      margin-left: -6%;
+    }
+
+    .typewriter h1 {
+      font-size: 200%;
+      padding-top: 10px;
+    }
+
     .nykethafront {
-      width: 13.4%;
+      width: 20%;
       position: absolute;
-      top: 19%;
-      left: 41%;
+      left: 40%;
       z-index: -1;
     }
 
@@ -567,6 +700,27 @@ Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
     font-weight: bolder;
     padding-top: 33px;
   }*/
+
+  .nykethacontainer{
+    margin-top: 43%;
+  }
+
+  .typewritercontainer {
+    margin-top: 31%;
+    margin-left: -6%;
+  }
+
+  .typewriter h1 {
+    font-size: 150%;
+    padding-top: 10px;
+  }
+
+  .nykethafront {
+    width: 23%;
+    position: absolute;
+    left: 40%;
+    z-index: -1;
+  }
 
   .aboutp {
   	font-size: 70%;
@@ -1006,6 +1160,28 @@ Microsoft Lumia 950, Nokia N9, Nokia Lumina 520, Galaxy S5*/
     color: #FFF;
     text-align: center;
   }*/
+
+  .nykethacontainer{
+    margin-top: 46%;
+  }
+
+  .typewritercontainer {
+    margin-top: 23%;
+    margin-left: -6%;
+  }
+
+  .nykethafront {
+    width: 26%;
+    position: absolute;
+    left: 40%;
+    z-index: -1;
+  }
+
+  .typewriter h1 {
+    font-size: 120%;
+    padding-top: 10px;
+  }
+
 
   .aboutp {
   	font-size: 70%;
